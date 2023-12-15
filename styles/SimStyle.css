@@ -1,0 +1,112 @@
+body{
+	background: #0f1e3d;
+	color: white;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	color: limegreen;
+}
+
+.project-title{
+	text-decoration: underline;
+}
+
+.project-feature-photo{
+	width:100%;
+}
+
+.development-grid-container{
+	display: grid;
+	grid-template-columns: repeat(4, minmax(100px, 1fr));
+	grid-gap: 12px;
+}
+
+.development-grid-item{
+	border: solid #226a50;
+	border-radius: 17px;
+	padding: 3%;
+}
+
+.creative-grid-container{
+	display: grid;
+	grid-template-columns: repeat(4, minmax(100px, 1fr));
+	grid-gap: 12px;
+}
+
+.creative-grid-item{
+	border: solid #226a50;
+	border-radius: 17px;
+	padding: 3%;
+}
+
+
+
+/*Extra Large Devices (Large Desktops, >1200px):*/
+/*Styles for screens wider than 1200px */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/*Large Devices (Desktops, 992px - 1200px):*/
+/* Styles for screens between 992px and 1200px wide */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.development-grid-container{
+		display: grid;
+		grid-template-columns: repeat(3, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+	.creative-grid-container{
+		display: grid;
+		grid-template-columns: repeat(3, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+}
+
+/*Medium Devices (Small Laptops, 768px - 992px):*/
+/* Styles for screens between 768px and 992px wide */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.development-grid-container{
+		display: grid;
+		grid-template-columns: repeat(2, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+	.creative-grid-container{
+		display: grid;
+		grid-template-columns: repeat(2, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+}
+
+/*Small Devices (Tablets, 600px - 768px):*/
+/* Styles for screens between 600px and 768px wide */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+	.development-grid-container{
+		display: grid;
+		grid-template-columns: repeat(1, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+	.creative-grid-container{
+		display: grid;
+		grid-template-columns: repeat(1, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+}
+
+/*Extra Small Devices (Phones, <600px):*/
+/* Styles for screens less than 600px wide */
+@media only screen and (max-width: 600px) {
+	.development-grid-container{
+		display: grid;
+		grid-template-columns: repeat(1, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+	.creative-grid-container{
+		display: grid;
+		grid-template-columns: repeat(1, minmax(100px, 1fr));
+		grid-gap: 12px;
+	}
+}

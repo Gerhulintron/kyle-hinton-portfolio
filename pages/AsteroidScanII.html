@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body style="background-color:#5D2150; color:#08A1A9;">
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h2 style="color:#37D12A;">ASTEROID DATA FIND</h2>
+            <p>Scan For Asteroids By Date</p>
+            <p>Take a look at <a href="https://api.nasa.gov/neo/rest/v1/feed?start_date=2018-09-07&end_date=2018-09-08&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" target="_blank" rel="noopener noreferrer">Asteroid Demo Data</a></p>
+            <input type="date" id="userDate">
+            <button onclick="getAsteroidDateData()">Get Asteroids</button>
+            <!--            <button onclick="resetAsteroidDateData()">Clear Data</button>-->
+
+            <h3>List of Asteroids From Selected Date: Distance from Earth * Maximum Estimated Diameter</h3>
+            <p> x: Maximum Estimated Diameter in Meters * 0.1 </p>
+            <p> y: Miss Distance in KM</p>
+            <p> radius: Maximum Estimated Diameter in Meters * 0.1</p>
+        </div>
+        <div style="background-color:#FFFFFF; font-size: 300px;">
+            <h1>Asteroid Data</h1>
+            <canvas id="asteroidChart" style="font-size: 300px;"></canvas>
+        </div>
+    </div>
+</div>
+<div></div>
+<div class="container">
+    <div class="jumbotron"   style="background-color:#052858;  ">
+        <h3>Detailed Asteroid Information List</h3>
+        <table id="astroTable" border="1" style="border:1px #A6E2D1; color:#FCFAEE ">
+
+
+
+            <thead border="1" >
+            <tr style="font-weight: bold; color:#08A1A9 ">
+                <td>Name</td>
+                <td>Potentially Hazardous</td>
+                <td>Min Est. Diameter M</td>
+                <td>Max Est. Diameter M</td>
+                <td>Min Est. Diameter KM</td>
+                <td>Max Est. Diameter KM</td>
+                <td>Close Approach Date</td>
+                <td>Miss Distance KM</td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+
+<div style="background-color:#E2E0B8">
+    <!--    <img id="satelliteImage" src="https://api.nasa.gov/planetary/earth/imagery?lon=-114.33&lat=29.78&date=2018-01-01&dim=1.7&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" width="75%" height="75%">-->
+    <script>
+        today = getTodaysDate();
+        var url = "https://api.nasa.gov/neo/rest/v1/feed?start_date=" + today + "&end_date=" + today + "&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
+
+        // var url = "https://api.nasa.gov/neo/rest/v1/feed?start_date=2020-12-25&end_date=2020-12-25&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
+
+        const table = document.getElementById("astroTable");
+        const xlabels = [];
+        const ytemps = [];
+        const newDate = getTodaysDate();
+        console.log("New Date: " + newDate);
+        // const newDate = "2020-12-25";
+        const ctx = document.getElementById('asteroidChart').getContext('2d');
+
+        function getTodaysDate(){
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+            var yyyy = today.getFullYear();
+
+            today = yyyy+"-"+mm+"-"+dd;
+            return today;
+        }
+
+        function getUserDate(){
+            return document.getElementById("userDate").value;
+        }
+
+        function getAsteroidDateData(){
+            const newDate = getUserDate();
+            userUrl=  "https://api.nasa.gov/neo/rest/v1/feed?start_date=" + newDate + "&end_date=" + newDate + "&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
+            resetAsteroidData(asteroidChart, userUrl , newDate);
+            // getAsteroidChart(userUrl, newDate);
+
+        }
+
+        function resetAsteroidDateData(){
+            const newDate = getUserDate();
+            userUrl=  "https://api.nasa.gov/neo/rest/v1/feed?start_date=" + newDate + "&end_date=" + newDate + "&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
+            resetAsteroidData(asteroidChart, userUrl , newDate);
+            // getAsteroidChart(userUrl, newDate);
+
+        }
+
+
+        function removeData(chart) {
+
+            chart.data.labels = [];
+            chart.data.datasets.forEach((dataset) => {
+                dataset.data = [];
+            });
+            chart.update();
+        }
+
+        function clearChart(chart) {
+            // Clear the table data
+            xlabels.length = 0; // Clear the xlabels array
+            ytemps.length = 0;
+            table.innerHTML = `
+        <thead border="1">
+            <tr style="font-weight: bold; color:#08A1A9 ">
+                <td>Name</td>
+                <td>Potentially Hazardous</td>
+                <td>Min Est. Diameter M</td>
+                <td>Max Est. Diameter M</td>
+                <td>Min Est. Diameter KM</td>
+                <td>Max Est. Diameter KM</td>
+                <td>Close Approach Date</td>
+                <td>Miss Distance KM</td>
+            </tr>
+        </thead>
+    `;
+
+            // Clear the chart data
+            if (typeof chart !== 'undefined') {
+                // chart.data.labels = [];
+                // chart.data.datasets.forEach((dataset) => {
+                //     dataset.data = [];
+                // });
+                removeData(asteroidChart);
+                chart.update();
+            }
+        }
+
+        //      url=  "https://api.nasa.gov/neo/rest/v1/feed?start_date="+ userDate +"&end_date=2018-09-08&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
+
+        async function getAsteroidData(url, theDate){
+
+            const response = await fetch(url);
+            const data = await response.json();
+            console.log(data);
+            console.log(data.element_count);
+            console.log(data.near_earth_objects[theDate][0]["name"]);
+            console.log(data.near_earth_objects[theDate][0]['estimated_diameter']['meters']['estimated_diameter_min']);
+
+            todaysAsteroids = data.near_earth_objects[theDate];
+
+
+
+            for(var i = 0; i < todaysAsteroids.length; i++){
+                var row = table.insertRow(i + 1);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+                var cell6 = row.insertCell(5);
+                var cell7 = row.insertCell(6);
+                var cell8 = row.insertCell(7);
+
+                astroName =  todaysAsteroids[i]["name"] ;
+                potentialHazard = todaysAsteroids[i]['is_potentially_hazardous_asteroid'];
+                minEstimatedDiameterKM = todaysAsteroids[i]['estimated_diameter']['kilometers']['estimated_diameter_min'];
+                maxEstimatedDiameterKM = todaysAsteroids[i]['estimated_diameter']['kilometers']['estimated_diameter_max'];
+                minEstimatedDiameterM = todaysAsteroids[i]['estimated_diameter']['meters']['estimated_diameter_min'];
+                maxEstimatedDiameterM = todaysAsteroids[i]['estimated_diameter']['meters']['estimated_diameter_max'];
+                closeApproachDate = todaysAsteroids[i]['close_approach_data'][0]['close_approach_date'];
+                missDistanceKM = todaysAsteroids[i]['close_approach_data'][0]['miss_distance']['kilometers'];
+
+                ytemps.push(
+                    {
+                        x: maxEstimatedDiameterM * 0.1,
+                        y: missDistanceKM,
+                        r: maxEstimatedDiameterM * 0.1,
+                    });
+                //xlabels.push(astroName);
+
+                cell1.innerHTML = astroName;
+                cell2.innerHTML = potentialHazard;
+                cell3.innerHTML = minEstimatedDiameterM;
+                cell4.innerHTML = maxEstimatedDiameterM;
+                cell5.innerHTML = minEstimatedDiameterKM;
+                cell6.innerHTML = maxEstimatedDiameterKM;
+                cell7.innerHTML = closeApproachDate;
+                cell8.innerHTML = missDistanceKM;
+
+
+            }
+
+        }
+
+        // function clearChart(chart){
+        //     chart.update();
+        // }
+
+        async function getAsteroidChart(url, newDate) {
+            await getAsteroidData(url, newDate);
+
+            asteroidChart = new Chart(ctx, {
+                type: 'bubble',
+                data: {
+                    labels: xlabels,
+                    datasets: [{
+                        label: 'Estimated Asteroid Diameter M and Distance from Earth KM for ' + newDate,
+                        data: ytemps,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.4)',
+                            'rgba(17, 250, 45, 0.4)',
+                            'rgba(14, 87, 156, 0.4)',
+                            'rgba(1, 23, 54, 0.4)',
+                            'rgba(255, 99, 132, 0.4)',
+                            'rgba(17, 250, 45, 0.4)',
+                            'rgba(14, 87, 156, 0.4)',
+                            'rgba(1, 23, 54, 0.4)',
+                            'rgba(255, 99, 132, 0.4)',
+                            'rgba(17, 250, 45, 0.4)',
+                            'rgba(14, 87, 156, 0.4)',
+                            'rgba(1, 23, 54, 0.4)',
+                            'rgba(255, 99, 132, 0.4)',
+                            'rgba(17, 250, 45, 0.4)',
+                            'rgba(14, 87, 156, 0.4)',
+                            'rgba(1, 23, 54, 0.4)',
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(17, 250, 45, 1)',
+                            'rgba(14, 87, 156, 1)',
+                            'rgba(1, 23, 54, 1)',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(17, 250, 45, 1)',
+                            'rgba(14, 87, 156, 1)',
+                            'rgba(1, 23, 54, 1)',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(17, 250, 45, 1)',
+                            'rgba(14, 87, 156, 1)',
+                            'rgba(1, 23, 54, 1)',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(17, 250, 45, 1)',
+                            'rgba(14, 87, 156, 1)',
+                            'rgba(1, 23, 54, 1)',
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    legend:{
+                        labels:{
+                            fontSize: 16,
+                        }
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+
+        }
+
+        function resetAsteroidData(chart, url, newDate) {
+            clearChart(asteroidChart);
+            getAsteroidChart(url, newDate);
+        }
+
+        getAsteroidChart(url, newDate);
+
+    </script>
+
+</div>
+</body>
+</html>
