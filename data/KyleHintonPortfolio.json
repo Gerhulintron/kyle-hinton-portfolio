@@ -1,0 +1,655 @@
+{"kyle-hinton-projects":[
+
+  {
+    "project-title": "Muulti - Token Gated Video Platform",
+    "project-type": "Development",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/muulti_logo_one.png",
+    "project-mediums": "Full Stack Development",
+    "project-presenter-producer": "",
+    "project-technology": "Python, Django, Django Rest Framework, and React JS, Solana",
+    "project-description": "Muulti is a video platform where content creators can use any NFT from any collection in the Solana ecosystem to token gate their video content.",
+    "project-links": [
+      {
+        "link-name": "Muulti",
+        "project-link": "https://muulti.xyz/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Lilly in the Lab",
+    "project-type": "Development",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Lilly_appicon_1024x1024.png",
+    "project-mediums": "Game Development",
+    "project-presenter-producer": "Calgary Animated Objects Society",
+    "project-technology": "Unity C# and AR Foundation, PHP and MySQ",
+    "project-description": "Lilly in the Lab is an augmented reality scavenger hunt application.",
+    "project-links": [
+      {
+        "link-name": "Lilly in the Lab on CAOS",
+        "project-link": "https://animatedobjects.ca/project/lilly-in-the-lab/"
+      },
+      {
+        "link-name": "Lilly in the Lab on Google Play Store",
+        "project-link": "https://play.google.com/store/apps/details?id=com.calgaryanimatedobjectssociety.lillyinthelab&hl=en_CA&gl=US"
+      },
+      {
+        "link-name": "Lilly in the Lab on Apple App Store",
+        "project-link": "https://apps.apple.com/ca/app/lilly-in-the-lab/id6444013678"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Disinformation Warriors",
+    "project-type": "Development",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/disinfo_badge_feb26.png",
+    "project-mediums": "Web Development, Project Architecture",
+    "project-presenter-producer": "Calgary Animated Objects Society",
+    "project-technology": "Python, Django and HTML/CSS.",
+    "project-description": "Disinformation Warriors is an educational resource dedicated to teaching media literacy, critical thinking and animation.",
+    "project-links": [
+      {
+        "link-name": "Disinformation Warriors",
+        "project-link": "https://www.disinformationwarriors.ca/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Augle",
+    "project-type": "Development",
+    "project-mediums": "Game Development, System Architecture",
+    "project-presenter-producer": "MAUD Collective",
+    "project-technology": "Python, Django, HTML/CSS, Unity, C#",
+    "project-description": "Augle was an augmented reality art experience where users can experience animated versions of artists' work. This was a full-stack application built in Unity C# and used a backend that was built with Python and Django.",
+    "project-links": [
+      {
+        "link-name": "Disinformation Warriors",
+        "project-link": "https://www.disinformationwarriors.ca/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Jasper Place History Website",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "Web Design",
+    "project-presenter-producer": "Ground Zero Productions",
+    "project-technology": "Wordpress, Elementor",
+    "project-description": "A website that captures the history and culture of Jasper Place in Edmonton, Alberta.",
+    "project-links": [
+      {
+        "link-name": "Jasper Place History Website",
+        "project-link": "https://jasperplacehistory.org/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Jasper Place History Website",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "Web Design",
+    "project-presenter-producer": "Ground Zero Productions",
+    "project-technology": "Wordpress, Elementor",
+    "project-description": "A website that captures the history and culture of Jasper Place in Edmonton, Alberta.",
+    "project-links": [
+      {
+        "link-name": "Jasper Place History Website",
+        "project-link": "https://jasperplacehistory.org/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Boathaus Studios Website",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "Wordpress, Elementor",
+    "project-presenter-producer": "Boathaus Studios",
+    "project-technology": "Wordpress, Elementor",
+    "project-description": "Website for audio production company, Boathaus Studios",
+    "project-links": [
+      {
+        "link-name": "Boathaus",
+        "project-link": "https://www.boathausstudios.com/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Brooke Leifso Portfolio",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "Wordpress, Elementor",
+    "project-presenter-producer": "Brooke Leifso",
+    "project-technology": "Wordpress, Elementor",
+    "project-description": "Portfolio website for Brooke Leifso.",
+    "project-links": [
+      {
+        "link-name": "Brooke Leifso",
+        "project-link": "https://www.boathausstudios.com/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Asteroid Scan",
+    "project-type": "Development",
+    "project-feature-photo-link": "",
+    "project-mediums": "Javascript",
+    "project-presenter-producer": "Brooke Leifso",
+    "project-technology": "Javascript",
+    "project-description": "See the asteroid data for any day",
+    "project-links": [
+      {
+        "link-name": "Asteroid Scan",
+        "project-link": "AsteroidScanII.html"
+      }
+    ]
+  },
+
+  {
+    "project-title": "The Suitcase Theatre Arcade",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/suitcase-theatre-arcade/SuitcaseTheatreArcade.jpg",
+    "project-mediums": "Theatre, Puppetry, Sound Design, Performance",
+    "project-presenter-producer": "The Suitcase Theatre Arcade",
+    "project-technology": "Theatre",
+    "project-description": "Sit down and zone in on our 3 minute puppet shows built into a variety of compartments and spaces.",
+    "project-links": [
+      {
+        "link-name": "The Suitcase Theatre Arcade",
+        "project-link": "https://www.suitcasetheatrearcade.com/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Trummer Dances: Do Not Microwave",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/do-not-microwave/DoNotMicrowave45.jpg",
+    "project-mediums": "Performance, movement, music composition",
+    "project-presenter-producer": "Presented Springboard Performance, Fluid Festival 2022",
+    "project-technology": "",
+    "project-description": "Warning: DO NOT MICROWAVE is a music-movement-mask collaboration between Kyle Hinton and Jocelyn Mah, composed of several short scenes. Kyle and Jocelyn like to think and play outside the box – or microwave.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "These Four Walls",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Jay-Square-2-1024x1024-1.jpg",
+    "project-mediums": "Sound Design, Audio Play",
+    "project-presenter-producer": "Action Dignity",
+    "project-technology": "Ableton",
+    "project-description": "These Four Walls presented by Alberta Queer Calendar Project, written by Jay Northcott and directed by Kathryn Smith. It was an honor and delight to get to design sound for the online presentation of this theatre script. You can listen to the podcast amongst many others here:",
+    "project-links": [
+      {
+        "link-name": "http://www.queercalendar.ca/",
+        "project-link": "https://queercalendar.ca/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Our Canada Our Story",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Action Dignity, Calgary Arts Development",
+    "project-technology": "Ableton",
+    "project-description": "Our Canada Our Story was an awesome political/anti-racist theatre project and it was absolutely exciting to design sound for this project with so many artists who were fired up about some topics that typically get swept under the rug. Throughout the creation of this project, I was recording rivers, trains, all kinds of chimes, and most humans. This was an awesome project to design sound for and you can find more info in the following links:",
+    "project-links": [
+      {
+        "link-name": "Our Canada, Our Story - Action Dignity",
+        "project-link": "https://actiondignity.org/news/our-canada-our-story/"
+      },
+      {
+        "link-name": "Our Canada, Our Story - Calgary Arts Development",
+        "project-link": "https://calgaryartsdevelopment.com/our-canada-our-story/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Life on the Wedge",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design",
+    "project-presenter-producer": "Bach and Tots, CSpace",
+    "project-technology": "",
+    "project-description": "For this lovely kids theatre project, I got to create the sound design and compose new electronic music arrangements for this show. The play is about two mice who have different levels of privilege and challenges based on where they reside in their house. One mouse lives nice and close to school and food while another has to always go around a cat to get anything. I had a fun time creating music for kids theatre that used sounds that would sound like mice running around with their dainty and tiny little feet. It’s always really neat to see your musical compositions come to life in stories and theatre. Additionally, I got to create a little suitcase puppet trunk to create the classroom of mice scenes. The suitcase allowed actors to control multiple mice-puppet characters at once, inside the classroom scene.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+  {
+    "project-title": "Constructed Nature",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design, Sound Installation",
+    "project-presenter-producer": "",
+    "project-technology": "",
+    "project-description": "Arts Commons Presents brings a new media art sound installation to the +15 hallway that will take you on a journey of meditation. This 15-speaker multi-ambient music installation was designed specifically for the Arts Commons +15 Walkway and is dedicated to the memory of Richard McDowell and Michael Green. This soundscape is called “constructed nature”. It’s a multi-dimensional soundscape, made from a collection of thunderstorm samples that have been gathered over the years. It is named “Constructed Nature” because all the samples were taken in an urban environment. While tinkering with the samples, it felt more like constructing nature than re-creating it. The soundscape is an expression of how distant humans are from pure nature. “Constructed Nature” is about how there is a pure definition of “nature”, that is both necessary and unobtainable to us. It is necessary because we need to visualize an ideal form of nature, that we can infinitely go towards. Without a pure definition of nature, we could make up whatever we want about it, and this happens a lot in politics. It becomes a word that can be used in a strategy. So, a true definition, or pure definition is necessary so that it can have substance that is greater than strategy and politics. It becomes something worthwhile to always try to obtain and to accept we will never obtain it. A laptop instrument was created with a video game joystick to play and affect the Thunder samples. It was made in Max/Msp and it can be an interactive sound installation, if desired. To create the track, I recorded myself using the Thunderstorm Patch/instrument, and then did some processing and editing in Ableton.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Echo Location Station",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/EchoLocationStation.jpg",
+    "project-mediums": "Sound Design, Installation Art",
+    "project-presenter-producer": "Presented by Telus SPARK",
+    "project-technology": "Ableton",
+    "project-description": "The Echo Location Station was a fun and safe quadraphonic sound installation that was featured at Telus Spark’s Halloween event, Monster Mash-up. Kids got to put on their bat-blinders and follow the sounds to collect bat food as the sound lead the way.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Feminazis at the Common Ground Festival",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Feminazis.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "",
+    "project-technology": "",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Absurdable Universe",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/AbsurdableUniverse.jpg",
+    "project-mediums": "Playwright",
+    "project-presenter-producer": "",
+    "project-technology": "",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "A Weird Kind of Openness: Footnotes",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design",
+    "project-presenter-producer": "",
+    "project-technology": "",
+    "project-description": "I had the pleasure of working with this duo, Mark Hopkins and Serenella Sol, for the 2015 Fluid Festival. I got to mangle music and make audio recording for this quick and nifty project. “Everything that is said is said underneath”.*",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Multi-Dimensional Emergency Staircase || Spark: Artist Performance Tours, Fission/Fusion",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design, Site-Specific Installation",
+    "project-presenter-producer": "Sage Theatre, Ignite!, Swallow-a-Bicycle",
+    "project-technology": "",
+    "project-description": "In June 2015 I got to be apart of the Fission/Fusion Performance Tours in the Calgary Tower and it was a part of Sage Theatre’s Ignite! Festival and was also presented by Swallow-a-Bicycle. It was also part of a program called the Spark: Artist Performance Tours. There were over a dozen artists involved in the project and each of us got a specific, behind the doors location in the Calgary Tower to create in, including an underground train station. I created a piece called the Multi-Dimensional Emergency Staircase, which, as you could guess was in the emergency staircase of the Calgary Tower, which is the same location I used for the same event in the previous year. Last year, I created a performance/audio piece about Loitering. This year I made an audio only piece about emergencies. The project was site-specific, which means I had to let the space inspire my creation. The Calgary Tower has two stair cases that are criss-crossing to the top of the tower. The criss-crossing stairs make you feel like you are inside of an M.C.Escher drawing. There is a mural on each landing and they are nature themed. Multi-dimensional is a word that definitely describes this space. It is easy to become distracted from the fact that this space is for emergencies but it became the attribute I wanted to focus on. It’s multi-dimensionality inspired me to create something about all Emergencies at once. For me, the goal was to design an audio creation that looks at emergencies universally rather than pinpointing a single one kind of emergency. By using alarms I also wanted to have the audience, for just a split second, think that they are in an emergency and maybe even wonder what they would do in an emergency situation.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Absurdable Universe",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Playwright",
+    "project-presenter-producer": "Presented by Chromatic Theatre, Greater Forest Lawn Playwright Lab",
+    "project-technology": "",
+    "project-description": "Dizzy is trying to prove to the world that the Universe needs to give itself meaning in order to exist, and he is going to prove it by writing a play. His play is about two scientists who discover the pre-universe through their scope. Meanwhile the same pre-universe is travelling through the cosmos and the pages, to find meaning in the ocean of chaos and infinitude. Special Thanks to Jenna Rodgers, Neil Flemming, Chelsea Dwarika, Kelly Malcolm, Dan Perry, and Andrew Merrigan.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Like Hell",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design",
+    "project-presenter-producer": "Calgary Region One Act Festival, Swallow-Your-Soul-Theatre",
+    "project-technology": "Ableton",
+    "project-description": "A man. A woman. A shelter. Two very different people trap themselves underground on the eve of the Cuban Missile Crisis, and share only one connection; the mutual friend who tried to help them both. Against a backdrop of fear mongering and paranoia with illusions shattering and fingers being pointed, these two deeply flawed humans must work together to survive; or tear each other apart. The enemy is everywhere, and the War is Cold. It is like hell.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Cowboy Versus Samurai",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/cowboy-vs-samurai-poster1.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Written by Michael Golamco and presented by Chromatic Theatre",
+    "project-technology": "Ableton",
+    "project-description": "Written by Michael Golamco and presented by Chromatic Theatre, Travis Park is the only Korean American in the ol’town of Breakneck, Wyoming. Veronica Lee moves to town to take the job of science teacher and he is head over heels until she reveals that she only dates white men.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "The Servant",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/The-Servant.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Urban Stories Theeatre",
+    "project-technology": "Ableton",
+    "project-description": "Written by Maria Crooks and Presented by Urban Stories Theatre,The Servant tells the story of a poor, uneducated woman in the years prior to, and after the end of centuries of  oppressive colonial rule in Jamaica, whose life seems destined to remain downtrodden  and miserable. Will her dream of a better future for herself and her children come true or are the odds stacked against her, too many for her to overcome?",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Let Down Your Hair",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design, Site-Specific Installation, Performance Art",
+    "project-presenter-producer": "Sage Theatre, Ignite!, Swallow-a-Bicycle",
+    "project-technology": "",
+    "project-description": "A performance tour through the depths of the Calgary Tower presented by Swallow-a-Bicycle and Sage theater as part of the 2014 Ignite! Festival. Make your way to the celebration on top but beware of the performances and installations that will guide your way.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "10 Minute Play Festival",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/10min2015_thumb1.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "High Performance Rodeo, Downstage Theatre, Swallow-a-Bicycle",
+    "project-technology": "",
+    "project-description": "In this event, theatre companies are given a line of dialogue and are challenged to create a 10 minute play in 24 hours. I got to be apart of Swallow-a-Bicycle’s play where YOU and THEM are pitted against each other in an office-status-deathmatch.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Insert Show Here",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Insert-Show-Here.jpg",
+    "project-mediums": "Theatre, Sound Design, Pure Data Programming",
+    "project-presenter-producer": "Ignite! 2014",
+    "project-technology": "Pure Data",
+    "project-description": "As part of Sage Theater’s, Ignite! 2014 Festival Dance Series, [Insert Show Here] asks the audience to engage with the performers, the sound, and the lights to bring a performance to life. Audience members got to control the sound using a mutated keyboard and lights from the board. The sound was designed by me and used a PD patch to launch the sounds from the keyboard, which the audience member got to use.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Soundasaurus 2013: Simulations",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/Soundasaurus2013.jpg",
+    "project-mediums": "Electronic Music Performance, Audio/Visual",
+    "project-presenter-producer": "Soundasaurus 2013, Epcor Centre for the Arts(Arts Commons)",
+    "project-technology": "Ableton",
+    "project-description": "Soundasaurus is a festival of experimental media, audio, performance and visual arts. I presented a performance featuring some of my own music which had been composed on the laptop with Ableton Live. The presentation featured strange visuals and some wicked effects processing.",
+    "project-links": [
+      {
+        "link-name": "YouTube Performance",
+        "project-link": "<iframe width=\"100%\" src=\"https://www.youtube.com/embed/Mzy5_398dyA?si=d-P4LXx95qpwuTgL\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+      }
+    ]
+  },
+
+  {
+    "project-title": "i-Robot Theatre",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/irobot2013_small.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Swallow-a-Bicycle Theatre",
+    "project-technology": "Ableton",
+    "project-description": "As a part of Beakerhead, which is a citywide festival of arts and engineering,Swallow-a-Bicycle presented i-Robot Theatre, a play where robots go beyond their programming. I designed the sound effects, engineered the audio for the project in the space, and operated the sound.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Rabbit: An Immersive Screenplay Reading",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "2150 Creative",
+    "project-technology": "Ableton",
+    "project-description": "A workshop performance reading of a screenplay in development (a really fun public reading!) by Matt McKinney from 2150Creative. For this project I was the Sound Designer and I used Ableton Live to arrange the many sound cue which consisted of music and everyday household and car noises.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Soundasaurus 2012: Simulations",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Electronic Music Performance, Audio/Visual",
+    "project-presenter-producer": "Soundasaurus 2012, Epcor Centre for the Arts(Arts Commons)",
+    "project-technology": "Ableton",
+    "project-description": "A performance of some of my experimental electronic music in Ableton Live. For this project I had to design my music to be performance-ready by choosing what was happening in each cue and choosing  what my controllers were doing in each cue, whether it be something automated or something I have to interact with (is this the cue where I play my iPhone instrument?). There was also a visual element to this project where I used a patch in Max for Live called Cell DNA which manipulates video from within Ableton Live, in a separate window on a projection (which they aimed at an array of mirrors). I had a separate midi controller which directly controlled the video.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "The Deep Find",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/the-deep-find/TheDeepFind2.jpg",
+    "project-mediums": "Site-Specific, Sound Composition, Movement, Collaborative Creation",
+    "project-presenter-producer": "Fluid Festival ContainR",
+    "project-technology": "Ableton",
+    "project-description": "A site-specific performance experience inside a shipping container. An immersive performance by Kyle Hinton and Erin Lequereux inspired by shipping containers falling off ships and into the ocean.The sound cues in this project were fired off in Ableton wirelessly using Touch OSC on my IPhone which was connected to my computer through a network that did not need an internet connection. This method worked flawlessly every night and in rehearsal.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Sounds from a Bucket of Paint",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Audio/Visual Performance Creation",
+    "project-presenter-producer": "Soulocentric",
+    "project-technology": "",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Found Sound/Shared Story Project",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/KyleTylerFoundSoundSharedStory.jpg",
+    "project-mediums": "Sound Installation",
+    "project-presenter-producer": "We Should Know Each Other 100: King Edward School",
+    "project-technology": "",
+    "project-description": "At We Should Know Each Other 100 at King Edward school we presented an activity where people would arrive at our room and be asked to record a sound and a story which would be played back immediately. The collection of sounds and stories played together and formed a collage soundscape which created a unique generative experience.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "S/Kin",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/SKIN.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Mindhive Collective, Edmonton Fringe Festival 2011",
+    "project-technology": "The barriers between inside and out. The challenges of letting something in or pushing it out. This play was about relationships and connection on a universal level. show was well received at the Edmonton Fringe in 2011 and I received this generous comment on my sound design: “During the “smooth” part of the passion dance, the sudden introduction of beautiful string quartet music in a soundtrack that up to that point had consisted mainly of spooky babble and haunting drones is electrifying.”\n                            -Mike Ross, The Edmonton  ",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "i-Robot Theatre",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/irobot2013_small.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Swallow-a-Bicycle Theatre",
+    "project-technology": "",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "The Bear and the Dishes",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/392749_10150915345580720_654895719_21297597_444634935_n.jpg",
+    "project-mediums": "Audio/Visual Performance Creation",
+    "project-presenter-producer": "Soulocentric 2012",
+    "project-technology": "",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "YouTube",
+        "project-link": "https://youtu.be/us5gctntdvM?si=XW5y0zON0OyKreBS"
+      }
+    ]
+  },
+
+  {
+    "project-title": "The Disembodied Lady",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "",
+    "project-technology": "Ignite! Festival 2011",
+    "project-description": "Imagine if your ability to perceive your body in space becomes separated from your physical body.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Freak Show: Into the Abyss",
+    "project-type": "Creative",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/freakshow2011_smaller.jpg",
+    "project-mediums": "Sound Design, Theatre",
+    "project-presenter-producer": "Swallow-a-Bicycle, High Performance Rodeo 2011",
+    "project-technology": "",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Characters and Violence",
+    "project-type": "Creative",
+    "project-feature-photo-link": "",
+    "project-mediums": "Playwright, Theatre",
+    "project-presenter-producer": "Nextfest 2010",
+    "project-technology": "",
+    "project-description": "Characters and Violence is about a detective who wakes up in the middle of the town of The Bermuda Triangle to find that everyone has disappeared. The detective eventually meets a writer who seems to be talking to the characters and essays that they created.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  }
+
+
+
+] }
