@@ -202,6 +202,10 @@ a{
 		grid-template-columns: repeat(1, minmax(100px, 1fr));
 		grid-gap: 12px;
 	}
+
+	.project-image-description-container{
+		flex-direction:column;
+	}
 }
 
 /*Extra Small Devices (Phones, <600px):*/
@@ -216,5 +220,9 @@ a{
 		display: grid;
 		grid-template-columns: repeat(1, minmax(100px, 1fr));
 		grid-gap: 12px;
+	}
+
+	.project-image-description-container{
+		flex-direction:column;
 	}
 }
