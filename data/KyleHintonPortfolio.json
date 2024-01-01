@@ -1,8 +1,34 @@
 {"kyle-hinton-projects":[
 
   {
+    "project-title": "Kyle Hinton - Developer Info",
+    "project-type": "Development",
+    "project-feature-photo-link": "",
+    "project-mediums": "",
+    "project-presenter-producer": "",
+    "project-technology": "Python, C#, JS, HTML, CSS, PostgreSQL, PHP, Rust, Java, Django, React, Unity, three.js, Solana Blockchain Development, Git, TTD, DevOps",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "Kyle Hinton Git Hub",
+        "project-link": "https://github.com/Gerhulintron"
+      },
+      {
+        "link-name": "Kyle Hinton BitBucket",
+        "project-link": "https://bitbucket.org/KyleHinton/"
+      },
+      {
+        "link-name": "LinkedIn",
+        "project-link": "https://www.linkedin.com/in/kyle-hinton-236ba0165/"
+      }
+    ]
+  },
+
+
+  {
     "project-title": "Muulti - Token Gated Video Platform",
     "project-type": "Development",
+    "project-date": "October 2023 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/muulti_logo_one.png",
     "project-mediums": "Full Stack Development",
     "project-presenter-producer": "",
@@ -16,9 +42,28 @@
     ]
   },
 
+
+  {
+    "project-title": "Disinformation Warriors",
+    "project-type": "Development",
+    "project-date": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/disinfo_badge_feb26.png",
+    "project-mediums": "Web Development, Project Architecture",
+    "project-presenter-producer": "Calgary Animated Objects Society",
+    "project-technology": "Python, Django and HTML/CSS.",
+    "project-description": "Disinformation Warriors is an educational resource dedicated to teaching media literacy, critical thinking and animation.",
+    "project-links": [
+      {
+        "link-name": "Disinformation Warriors",
+        "project-link": "https://www.disinformationwarriors.ca/"
+      }
+    ]
+  },
+
   {
     "project-title": "Lilly in the Lab",
     "project-type": "Development",
+    "project-date": "2018 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Lilly_appicon_1024x1024.png",
     "project-mediums": "Game Development",
     "project-presenter-producer": "Calgary Animated Objects Society",
@@ -40,25 +85,12 @@
     ]
   },
 
-  {
-    "project-title": "Disinformation Warriors",
-    "project-type": "Development",
-    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/disinfo_badge_feb26.png",
-    "project-mediums": "Web Development, Project Architecture",
-    "project-presenter-producer": "Calgary Animated Objects Society",
-    "project-technology": "Python, Django and HTML/CSS.",
-    "project-description": "Disinformation Warriors is an educational resource dedicated to teaching media literacy, critical thinking and animation.",
-    "project-links": [
-      {
-        "link-name": "Disinformation Warriors",
-        "project-link": "https://www.disinformationwarriors.ca/"
-      }
-    ]
-  },
+
 
   {
     "project-title": "Augle",
     "project-type": "Development",
+    "project-date": "",
     "project-mediums": "Game Development, System Architecture",
     "project-presenter-producer": "MAUD Collective",
     "project-technology": "Python, Django, HTML/CSS, Unity, C#",
@@ -72,8 +104,25 @@
   },
 
   {
+    "project-title": "Simulacrum Images",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "",
+    "project-presenter-producer": "",
+    "project-technology": "Wordpress",
+    "project-description": "NFT Development Lab",
+    "project-links": [
+      {
+        "link-name": "Simulacrum Images",
+        "project-link": "https://simulacrumimages.com/"
+      }
+    ]
+  },
+
+  {
     "project-title": "Jasper Place History Website",
     "project-type": "Web Design",
+    "project-date": "June 2021 - August 2021",
     "project-feature-photo-link": "",
     "project-mediums": "Web Design",
     "project-presenter-producer": "Ground Zero Productions",
@@ -87,25 +136,11 @@
     ]
   },
 
-  {
-    "project-title": "Jasper Place History Website",
-    "project-type": "Web Design",
-    "project-feature-photo-link": "",
-    "project-mediums": "Web Design",
-    "project-presenter-producer": "Ground Zero Productions",
-    "project-technology": "Wordpress, Elementor",
-    "project-description": "A website that captures the history and culture of Jasper Place in Edmonton, Alberta.",
-    "project-links": [
-      {
-        "link-name": "Jasper Place History Website",
-        "project-link": "https://jasperplacehistory.org/"
-      }
-    ]
-  },
 
   {
     "project-title": "Boathaus Studios Website",
     "project-type": "Web Design",
+    "project-date": "November 2021 - Present",
     "project-feature-photo-link": "",
     "project-mediums": "Wordpress, Elementor",
     "project-presenter-producer": "Boathaus Studios",
@@ -122,6 +157,7 @@
   {
     "project-title": "Brooke Leifso Portfolio",
     "project-type": "Web Design",
+    "project-date": "2021 - Present",
     "project-feature-photo-link": "",
     "project-mediums": "Wordpress, Elementor",
     "project-presenter-producer": "Brooke Leifso",
@@ -138,15 +174,16 @@
   {
     "project-title": "Asteroid Scan",
     "project-type": "Development",
+    "project-date": "2018 - Present",
     "project-feature-photo-link": "",
     "project-mediums": "Javascript",
-    "project-presenter-producer": "Brooke Leifso",
+    "project-presenter-producer": "",
     "project-technology": "Javascript",
     "project-description": "See the asteroid data for any day",
     "project-links": [
       {
         "link-name": "Asteroid Scan",
-        "project-link": "AsteroidScanII.html"
+        "project-link": "pages/AsteroidScanII.html"
       }
     ]
   },
@@ -154,6 +191,7 @@
   {
     "project-title": "The Suitcase Theatre Arcade",
     "project-type": "Creative",
+    "project-date": "2011 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/suitcase-theatre-arcade/SuitcaseTheatreArcade.jpg",
     "project-mediums": "Theatre, Puppetry, Sound Design, Performance",
     "project-presenter-producer": "The Suitcase Theatre Arcade",
@@ -170,6 +208,7 @@
   {
     "project-title": "Trummer Dances: Do Not Microwave",
     "project-type": "Creative",
+    "project-date": "October 29 2021",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/do-not-microwave/DoNotMicrowave45.jpg",
     "project-mediums": "Performance, movement, music composition",
     "project-presenter-producer": "Presented Springboard Performance, Fluid Festival 2022",
@@ -184,8 +223,26 @@
   },
 
   {
+    "project-title": "Northern Reflections - Goldfinch Flurry",
+    "project-type": "Creative",
+    "project-date": "February 1st 2021",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/GoldfinchFlurry-scaled.jpg",
+    "project-mediums": "Sound Design, Augmented Reality",
+    "project-presenter-producer": "Maud Collective, Twitchin' Threadz",
+    "project-technology": "",
+    "project-description": "Check out what’s happening on the “Augmented Reality” side of YYC with Northern Reflections Inglewood, by Maud Collective.\n\n                        I’m feeling incredibly grateful for being part of such a talented project team which included Sarah Johnston, who painted the amazing mural at Twitchin Threadz, and Mackenzie Bedford, who created the fantastic animation which you can find in the Augmented Reality realm using the app called Augle. I’m so stoked to hear my music paired with these phenomenal visuals!",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
     "project-title": "These Four Walls",
     "project-type": "Creative",
+    "project-date": "September 2020",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Jay-Square-2-1024x1024-1.jpg",
     "project-mediums": "Sound Design, Audio Play",
     "project-presenter-producer": "Action Dignity",
@@ -202,6 +259,7 @@
   {
     "project-title": "Our Canada Our Story",
     "project-type": "Creative",
+    "project-date": "February 1st 2020",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Action Dignity, Calgary Arts Development",
@@ -222,6 +280,7 @@
   {
     "project-title": "Life on the Wedge",
     "project-type": "Creative",
+    "project-date": "",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design",
     "project-presenter-producer": "Bach and Tots, CSpace",
@@ -237,6 +296,7 @@
   {
     "project-title": "Constructed Nature",
     "project-type": "Creative",
+    "project-date": "November 1 – December 31 2018",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Sound Installation",
     "project-presenter-producer": "",
@@ -253,6 +313,7 @@
   {
     "project-title": "Echo Location Station",
     "project-type": "Creative",
+    "project-date": "October 28-29 2016",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/EchoLocationStation.jpg",
     "project-mediums": "Sound Design, Installation Art",
     "project-presenter-producer": "Presented by Telus SPARK",
@@ -269,6 +330,7 @@
   {
     "project-title": "Feminazis at the Common Ground Festival",
     "project-type": "Creative",
+    "project-date": "",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Feminazis.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "",
@@ -285,6 +347,7 @@
   {
     "project-title": "Absurdable Universe",
     "project-type": "Creative",
+    "project-date": "",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/AbsurdableUniverse.jpg",
     "project-mediums": "Playwright",
     "project-presenter-producer": "",
@@ -301,6 +364,7 @@
   {
     "project-title": "A Weird Kind of Openness: Footnotes",
     "project-type": "Creative",
+    "project-date": "May 2016",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design",
     "project-presenter-producer": "",
@@ -317,6 +381,7 @@
   {
     "project-title": "Multi-Dimensional Emergency Staircase || Spark: Artist Performance Tours, Fission/Fusion",
     "project-type": "Creative",
+    "project-date": "",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Site-Specific Installation",
     "project-presenter-producer": "Sage Theatre, Ignite!, Swallow-a-Bicycle",
@@ -333,6 +398,7 @@
   {
     "project-title": "Absurdable Universe",
     "project-type": "Creative",
+    "project-date": "March 29 2015",
     "project-feature-photo-link": "",
     "project-mediums": "Playwright",
     "project-presenter-producer": "Presented by Chromatic Theatre, Greater Forest Lawn Playwright Lab",
@@ -349,6 +415,7 @@
   {
     "project-title": "Like Hell",
     "project-type": "Creative",
+    "project-date": "March 25 2015",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design",
     "project-presenter-producer": "Calgary Region One Act Festival, Swallow-Your-Soul-Theatre",
@@ -365,6 +432,7 @@
   {
     "project-title": "Cowboy Versus Samurai",
     "project-type": "Creative",
+    "project-date": "November 13-27 2014",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/cowboy-vs-samurai-poster1.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Written by Michael Golamco and presented by Chromatic Theatre",
@@ -381,6 +449,7 @@
   {
     "project-title": "The Servant",
     "project-type": "Creative",
+    "project-date": "November 4-7 2014",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/The-Servant.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Urban Stories Theeatre",
@@ -397,6 +466,7 @@
   {
     "project-title": "Let Down Your Hair",
     "project-type": "Creative",
+    "project-date": "June 19-21 2014",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Site-Specific Installation, Performance Art",
     "project-presenter-producer": "Sage Theatre, Ignite!, Swallow-a-Bicycle",
@@ -413,6 +483,7 @@
   {
     "project-title": "10 Minute Play Festival",
     "project-type": "Creative",
+    "project-date": "",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/10min2015_thumb1.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "High Performance Rodeo, Downstage Theatre, Swallow-a-Bicycle",
@@ -429,6 +500,7 @@
   {
     "project-title": "Insert Show Here",
     "project-type": "Creative",
+    "project-date": "June 19-21 2014",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Insert-Show-Here.jpg",
     "project-mediums": "Theatre, Sound Design, Pure Data Programming",
     "project-presenter-producer": "Ignite! 2014",
@@ -445,6 +517,7 @@
   {
     "project-title": "Soundasaurus 2013: Simulations",
     "project-type": "Creative",
+    "project-date": "October 2013",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/Soundasaurus2013.jpg",
     "project-mediums": "Electronic Music Performance, Audio/Visual",
     "project-presenter-producer": "Soundasaurus 2013, Epcor Centre for the Arts(Arts Commons)",
@@ -461,6 +534,7 @@
   {
     "project-title": "i-Robot Theatre",
     "project-type": "Creative",
+    "project-date": "September 11-22 2013",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/irobot2013_small.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Swallow-a-Bicycle Theatre",
@@ -477,6 +551,7 @@
   {
     "project-title": "Rabbit: An Immersive Screenplay Reading",
     "project-type": "Creative",
+    "project-date": "December 10-15 2012",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "2150 Creative",
@@ -493,6 +568,7 @@
   {
     "project-title": "Soundasaurus 2012: Simulations",
     "project-type": "Creative",
+    "project-date": "2012",
     "project-feature-photo-link": "",
     "project-mediums": "Electronic Music Performance, Audio/Visual",
     "project-presenter-producer": "Soundasaurus 2012, Epcor Centre for the Arts(Arts Commons)",
@@ -509,6 +585,7 @@
   {
     "project-title": "The Deep Find",
     "project-type": "Creative",
+    "project-date": "October 15-16 2012",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/the-deep-find/TheDeepFind2.jpg",
     "project-mediums": "Site-Specific, Sound Composition, Movement, Collaborative Creation",
     "project-presenter-producer": "Fluid Festival ContainR",
@@ -525,6 +602,7 @@
   {
     "project-title": "Sounds from a Bucket of Paint",
     "project-type": "Creative",
+    "project-date": "",
     "project-feature-photo-link": "",
     "project-mediums": "Audio/Visual Performance Creation",
     "project-presenter-producer": "Soulocentric",
@@ -541,6 +619,7 @@
   {
     "project-title": "Found Sound/Shared Story Project",
     "project-type": "Creative",
+    "project-date": "September 29-30",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/KyleTylerFoundSoundSharedStory.jpg",
     "project-mediums": "Sound Installation",
     "project-presenter-producer": "We Should Know Each Other 100: King Edward School",
@@ -557,11 +636,12 @@
   {
     "project-title": "S/Kin",
     "project-type": "Creative",
+    "project-date": "August 13-21 2011",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/SKIN.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Mindhive Collective, Edmonton Fringe Festival 2011",
-    "project-technology": "The barriers between inside and out. The challenges of letting something in or pushing it out. This play was about relationships and connection on a universal level. show was well received at the Edmonton Fringe in 2011 and I received this generous comment on my sound design: “During the “smooth” part of the passion dance, the sudden introduction of beautiful string quartet music in a soundtrack that up to that point had consisted mainly of spooky babble and haunting drones is electrifying.”\n                            -Mike Ross, The Edmonton  ",
-    "project-description": "",
+    "project-technology": "",
+    "project-description": "The barriers between inside and out. The challenges of letting something in or pushing it out. This play was about relationships and connection on a universal level. show was well received at the Edmonton Fringe in 2011 and I received this generous comment on my sound design: “During the “smooth” part of the passion dance, the sudden introduction of beautiful string quartet music in a soundtrack that up to that point had consisted mainly of spooky babble and haunting drones is electrifying.”\n                            -Mike Ross, The Edmonton  ",
     "project-links": [
       {
         "link-name": "",
@@ -573,6 +653,7 @@
   {
     "project-title": "i-Robot Theatre",
     "project-type": "Creative",
+    "project-date": "June 2011",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/irobot2013_small.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Swallow-a-Bicycle Theatre",
@@ -589,6 +670,7 @@
   {
     "project-title": "The Bear and the Dishes",
     "project-type": "Creative",
+    "project-date": "2012",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/392749_10150915345580720_654895719_21297597_444634935_n.jpg",
     "project-mediums": "Audio/Visual Performance Creation",
     "project-presenter-producer": "Soulocentric 2012",
@@ -605,6 +687,7 @@
   {
     "project-title": "The Disembodied Lady",
     "project-type": "Creative",
+    "project-date": "June 2011",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "",
@@ -621,6 +704,7 @@
   {
     "project-title": "Freak Show: Into the Abyss",
     "project-type": "Creative",
+    "project-date": "January 2011",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/freakshow2011_smaller.jpg",
     "project-mediums": "Sound Design, Theatre",
     "project-presenter-producer": "Swallow-a-Bicycle, High Performance Rodeo 2011",
@@ -637,6 +721,7 @@
   {
     "project-title": "Characters and Violence",
     "project-type": "Creative",
+    "project-date": "June 2010",
     "project-feature-photo-link": "",
     "project-mediums": "Playwright, Theatre",
     "project-presenter-producer": "Nextfest 2010",
