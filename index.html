@@ -69,14 +69,14 @@
 
 
             if (project['project-title']) {
-                portfolioHTML += `<h1>${project['project-title']}</h1>`;
+                portfolioHTML += `<div class="project-title-container"><h1 class="project-title">${project['project-title']}</h1></div>`;
             }
 
 
             // Check if 'project-feature-photo' exists
             if (project['project-feature-photo-link']) {
                 descriptionHTML += `<div class="project-image-container">
-                        <img class="project-feature-photo" src="${project['project-feature-photo-link']}" alt="${project['project-title']}">
+             <img class="project-feature-photo" src="${project['project-feature-photo-link']}" alt="${project['project-title']}">
                      </div>`;
             }
 
