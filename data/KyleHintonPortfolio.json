@@ -3,7 +3,7 @@
   {
     "project-title": "Kyle Hinton - Developer Info",
     "project-type": "Development",
-    "project-feature-photo-link": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/headshots/Kyle%20Hinton%20IFAO%202023%206%20Photo_by_Sean_Dennie.jpg",
     "project-mediums": "",
     "project-presenter-producer": "",
     "project-technology": "Python, C#, JS, HTML, CSS, PostgreSQL, PHP, Rust, Java, Django, React, Unity, three.js, Solana Blockchain Development, Git, TTD, DevOps",
@@ -90,7 +90,8 @@
   {
     "project-title": "Augle",
     "project-type": "Development",
-    "project-date": "",
+    "project-date": " https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/maud-folder/maud_logo_animation_2.gif",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/maud-folder/maud_logo_animation_2.gif",
     "project-mediums": "Game Development, System Architecture",
     "project-presenter-producer": "MAUD Collective",
     "project-technology": "Python, Django, HTML/CSS, Unity, C#",
@@ -106,7 +107,7 @@
   {
     "project-title": "Simulacrum Images",
     "project-type": "Web Design",
-    "project-feature-photo-link": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/microwaves/MicrowaveGif.gif",
     "project-mediums": "",
     "project-presenter-producer": "",
     "project-technology": "Wordpress",
@@ -158,7 +159,7 @@
     "project-title": "Brooke Leifso Portfolio",
     "project-type": "Web Design",
     "project-date": "2021 - Present",
-    "project-feature-photo-link": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/BrookeAndByron.Share-131-768x1151.jpg",
     "project-mediums": "Wordpress, Elementor",
     "project-presenter-producer": "Brooke Leifso",
     "project-technology": "Wordpress, Elementor",
@@ -175,7 +176,7 @@
     "project-title": "Asteroid Scan",
     "project-type": "Development",
     "project-date": "2018 - Present",
-    "project-feature-photo-link": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/asteroid-scan/Astro%20Data%2001282022b%20viz.png",
     "project-mediums": "Javascript",
     "project-presenter-producer": "",
     "project-technology": "Javascript",
@@ -525,8 +526,8 @@
     "project-description": "Soundasaurus is a festival of experimental media, audio, performance and visual arts. I presented a performance featuring some of my own music which had been composed on the laptop with Ableton Live. The presentation featured strange visuals and some wicked effects processing.",
     "project-links": [
       {
-        "link-name": "YouTube Performance",
-        "project-link": "<iframe width=\"100%\" src=\"https://www.youtube.com/embed/Mzy5_398dyA?si=d-P4LXx95qpwuTgL\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+        "link-name": "YouTube Performance - Simulated Progress",
+        "project-link": "https://www.youtube.com/watch?v=Mzy5_398dyA&t=3s&pp=ygUka3lsZSBoaW50b24gc2ltdWxhdGlvbnMgc291bmRhc3VhcnVz"
       }
     ]
   },
