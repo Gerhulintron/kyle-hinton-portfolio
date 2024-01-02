@@ -15,6 +15,17 @@ a{
 	padding-right: 10%;
 }
 
+.kyle-hinton-bio-container{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid; /* Border size */
+	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
+	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+	background-color: #c0c0c0;
+	color: black;
+
+}
+
 .project-title{
 	/*text-decoration: underline;*/
 	color:white;
@@ -107,12 +118,25 @@ a{
 	margin: 3px;
 }
 
+.bio-title-container{
+	background: #000080;
+	margin: 3px;
+	color:white;
+}
+
+
+.bio-title{
+	padding-left: 12px;
+}
 
 
 .project-title{
 	padding-left: 12px;
 }
 
+.bio-description-container{
+	padding: 3%;
+}
 
 .project-image-description-container{
 	padding: 3%;
