@@ -123,11 +123,16 @@
                           </div>`;
             }
 
-            // Check if 'project-links' exists and is an array
-            if (Array.isArray(project['project-links']) && project['project-links'].length > 0) {
-                const linksHTML = project['project-links'].map(link => {
+            const linksHTML = project['project-links'].map(link => {
+                // Check if both 'project-link' and 'link-name' exist and are not empty
+                if (link['project-link'] && link['link-name']) {
                     return `<li class="project-link"><a href="${link['project-link']}" target="_blank">${link['link-name']}</a></li>`;
-                }).join(' ');
+                }
+                return ''; // Return an empty string for invalid or incomplete links
+            }).join(' ');
+
+// Add the links HTML only if it's not empty
+            if (linksHTML.trim().length > 0) {
                 portfolioHTML += `<div class="project-links"><h3>Project Links:</h3><ul class="project-link-list">${linksHTML}</ul></div>`;
             }
 
