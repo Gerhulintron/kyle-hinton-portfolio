@@ -2,6 +2,8 @@ body{
 	background: #0f1e3d;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 a{
@@ -103,6 +105,21 @@ a{
 	background: mediumpurple;
 }
 
+.project-item li:hover{
+
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: mediumpurple; /* Light gray background, typical of Windows 95 */
+	color: black;
+	text-decoration: none; /* Remove underline from links */
+	font-family: Arial, Helvetica, sans-serif; /* Fallback font similar to MS Sans Serif */
+	font-size: 12px;
+	border: 2px outset #ffffff; /* Creates the 3D button effect */
+	box-shadow: 1px 1px 0 #000; /* Adds depth to the button */
+
+
+}
+
 .project-item:hover  .project-title-container{
 	border-radius: 20px;
 	background: #226a50;
@@ -172,6 +189,31 @@ a{
 	list-style: none;
 }
 
+ul.project-link-list {
+	list-style: none; /* Remove default list styling */
+	/*padding: 0; !* Remove default padding *!*/
+}
+
+ul.project-link-list li {
+	display: inline-block; /* Display list items inline */
+	margin-right: 10px; /* Spacing between buttons */
+}
+
+ul.project-link-list li a {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #c0c0c0; /* Light gray background, typical of Windows 95 */
+	color: black;
+	text-decoration: none; /* Remove underline from links */
+	font-family: Arial, Helvetica, sans-serif; /* Fallback font similar to MS Sans Serif */
+	font-size: 12px;
+	border: 2px outset #ffffff; /* Creates the 3D button effect */
+	box-shadow: 1px 1px 0 #000; /* Adds depth to the button */
+}
+
+ul.project-link-list li a:active {
+	border-style: inset; /* Changes the button appearance when clicked */
+}
 
 /*Extra Large Devices (Large Desktops, >1200px):*/
 /*Styles for screens wider than 1200px */
