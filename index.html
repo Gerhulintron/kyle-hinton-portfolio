@@ -128,7 +128,7 @@
                 const linksHTML = project['project-links'].map(link => {
                     return `<li class="project-link"><a href="${link['project-link']}" target="_blank">${link['link-name']}</a></li>`;
                 }).join(' ');
-                portfolioHTML += `<div class="project-links"><ul class="project-link-list">${linksHTML}</ul></div>`;
+                portfolioHTML += `<div class="project-links"><h3>Project Links:</h3><ul class="project-link-list">${linksHTML}</ul></div>`;
             }
 
             portfolioHTML += `</div>`; // Close the project item div
