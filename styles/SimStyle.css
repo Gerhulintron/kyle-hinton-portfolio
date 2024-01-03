@@ -182,6 +182,11 @@ a{
 	flex-direction:row;
 }
 
+.outer-description-container{
+	display:flex;
+	flex-direction:column;
+}
+
 .project-image-container{
 	width:360px;
 }

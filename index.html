@@ -93,41 +93,41 @@
             // Check if 'project-description' exists
             if (project['project-description']) {
 
-                descriptionHTML += `<div class="project-description-container"><p>${project['project-description']}</p></div>`;
+                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p>${project['project-description']}</p></div>`;
             }
             else{
-                descriptionHTML += `<div class="project-description-container"><p>No description at this time.</p></div>`;
+                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p>No description at this time.</p></div>`;
 
             }
 
-            descriptionHTML += `</div>`; // Close the description div
-            // descriptionHTML += imageHTML + descriptionHTML; // Close the description div
-            portfolioHTML += descriptionHTML; // Combine the image and description HTML
+
 
             if (project['project-date']) {
-                portfolioHTML += `<div class="project-date">
+                descriptionHTML += `<div class="project-date">
                               <p>${project['project-date']}</p>
                           </div>`;
             }
 
             // Add other project details directly to portfolioHTML
             if (project['project-mediums']) {
-                portfolioHTML += `<div class="project-mediums">
+                descriptionHTML += `<div class="project-mediums">
                               <p>${project['project-mediums']}</p>
                           </div>`;
             }
 
             if (project['project-technology']) {
-                portfolioHTML += `<div class="technology-languages">
+                descriptionHTML += `<div class="technology-languages">
                               <p>${project['project-technology']}</p>
                           </div>`;
             }
 
             if (project['project-presenter-producer']) {
-                portfolioHTML += `<div class="project-presenter-producer">
+                descriptionHTML += `<div class="project-presenter-producer">
                               <p>${project['project-presenter-producer']}</p>
                           </div>`;
             }
+
+
 
             const linksHTML = project['project-links'].map(link => {
                 // Check if both 'project-link' and 'link-name' exist and are not empty
@@ -139,8 +139,12 @@
 
 // Add the links HTML only if it's not empty
             if (linksHTML.trim().length > 0) {
-                portfolioHTML += `<div class="project-links"><h3>Project Links:</h3><ul class="project-link-list">${linksHTML}</ul></div>`;
+                descriptionHTML += `<div class="project-links"><h3>Project Links:</h3><ul class="project-link-list">${linksHTML}</ul></div>`;
+
             }
+                descriptionHTML += `</div></div>`; // Close the description div
+                // descriptionHTML += imageHTML + descriptionHTML; // Close the description div
+                portfolioHTML += descriptionHTML; // Combine the image and description HTML
 
             portfolioHTML += `</div>`; // Close the project item div
 
