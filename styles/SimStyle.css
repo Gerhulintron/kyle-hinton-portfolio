@@ -65,25 +65,25 @@ a{
 .portfolio-grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
-	grid-gap: 12px;
+	grid-gap: 56px;
 }
 
 .web-design-grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
-	grid-gap: 12px;
+	grid-gap: 72px;
 }
 
 .development-portfolio-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
-	grid-gap: 12px;
+	grid-gap: 72px;
 }
 
 .portfolio-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
-	grid-gap: 12px;
+	grid-gap: 72px;
 }
 
 .portfolio-item {
@@ -100,7 +100,7 @@ a{
 .development-grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
-	grid-gap: 12px;
+	grid-gap: 2rem;
 }
 
 .project-item{
@@ -117,7 +117,7 @@ a{
 
 .project-item:hover{
 	border-radius: 20px;
-	box-shadow: 30px 35px 2px #226a50;
+	box-shadow: 30px 35px 2px gold;
 	background: mediumpurple;
 }
 
