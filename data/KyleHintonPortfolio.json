@@ -180,10 +180,10 @@
     "project-mediums": "Javascript",
     "project-presenter-producer": "",
     "project-technology": "Javascript",
-    "project-description": "Deprecated - See the asteroid data for any day, using the NASA open API data source.",
+    "project-description": "See the asteroid data for any day, using the NASA open API data source.",
     "project-links": [
       {
-        "link-name": "Asteroid Scan - Deprecated",
+        "link-name": "Asteroid Scan",
         "project-link": "pages/AsteroidScanII.html"
       }
     ]

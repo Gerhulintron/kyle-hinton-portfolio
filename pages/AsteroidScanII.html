@@ -4,29 +4,31 @@
     <meta charset="utf-8">
     <title>Kyle Hinton Projects - Asteroid Scan</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="../styles/SimStyle.css">
     <link rel="stylesheet" href="../styles/KHPNavStyle.css"/>
 </head>
 <body style="background-color:#5D2150; color:#08A1A9;">
 <div id="navbar-container"></div>
-<div style="display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; background-color: #5D2150; color: #08A1A9;">
-    <div style="flex: 1; min-width: 300px;">
-        <h2 style="color:#37D12A;">ASTEROID DATA FIND</h2>
-        <p>Scan For Asteroids By Date</p>
-        <p>Take a look at <a href="https://api.nasa.gov/neo/rest/v1/feed?start_date=2018-09-07&end_date=2018-09-08&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" target="_blank" rel="noopener noreferrer">Asteroid Demo Data</a></p>
-        <input type="date" id="userDate">
-        <button onclick="getAsteroidDateData()">Get Asteroids</button>
-        <!-- <button onclick="resetAsteroidDateData()">Clear Data</button> -->
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h2 style="color:#37D12A;">ASTEROID DATA FIND</h2>
+            <p>Scan For Asteroids By Date</p>
+            <p>Take a look at <a href="https://api.nasa.gov/neo/rest/v1/feed?start_date=2018-09-07&end_date=2018-09-08&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" target="_blank" rel="noopener noreferrer">Asteroid Demo Data</a></p>
+            <input type="date" id="userDate">
+            <button onclick="getAsteroidDateData()">Get Asteroids</button>
+            <!--            <button onclick="resetAsteroidDateData()">Clear Data</button>-->
 
-        <h3>List of Asteroids From Selected Date: Distance from Earth * Maximum Estimated Diameter</h3>
-        <p> x: Maximum Estimated Diameter in Meters * 0.1 </p>
-        <p> y: Miss Distance in KM</p>
-        <p> radius: Maximum Estimated Diameter in Meters * 0.1</p>
-    </div>
-    <div style="flex: 3; background-color:#FFFFFF;">
-        <h1 style="font-size: 2em;">Asteroid Data</h1>
-        <canvas id="asteroidChart" style="width: 100%;"></canvas>
+            <h3>List of Asteroids From Selected Date: Distance from Earth * Maximum Estimated Diameter</h3>
+            <p> x: Maximum Estimated Diameter in Meters * 0.1 </p>
+            <p> y: Miss Distance in KM</p>
+            <p> radius: Maximum Estimated Diameter in Meters * 0.1</p>
+        </div>
+        <div style="background-color:#FFFFFF; font-size: 300px;">
+            <h1>Asteroid Data</h1>
+            <canvas id="asteroidChart" style="font-size: 300px;"></canvas>
+        </div>
     </div>
 </div>
 <div></div>
@@ -55,7 +57,7 @@
 
 
 <div style="background-color:#E2E0B8">
-        <img id="satelliteImage" src="https://api.nasa.gov/planetary/earth/imagery?lon=-114.33&lat=29.78&date=2018-01-01&dim=1.7&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" width="75%" height="75%">
+    <!--    <img id="satelliteImage" src="https://api.nasa.gov/planetary/earth/imagery?lon=-114.33&lat=29.78&date=2018-01-01&dim=1.7&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" width="75%" height="75%">-->
     <script>
 
         fetch("KyleHintonProjectsNavbar.html")
