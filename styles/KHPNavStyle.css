@@ -1,7 +1,8 @@
 .navbar {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
-	background: #226a50;
+	background: #c0c0c0;
+	color: black;
 	padding: 0;
 	margin: 0;
 	left: 0;
@@ -15,9 +16,27 @@
 }
 
 .nav-item a {
-	display: block;
-	color: white;
-	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #c0c0c0; /* Light gray background, typical of Windows 95 */
+	color: black;
+	text-decoration: none; /* Remove underline from links */
+	font-family: Arial, Helvetica, sans-serif; /* Fallback font similar to MS Sans Serif */
+	font-size: 12px;
+	border: 2px outset #ffffff; /* Creates the 3D button effect */
+	box-shadow: 1px 1px 0 #000;
+}
+
+.dropbtn a{
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #c0c0c0; /* Light gray background, typical of Windows 95 */
+	color: black;
+	text-decoration: none; /* Remove underline from links */
+	font-family: Arial, Helvetica, sans-serif; /* Fallback font similar to MS Sans Serif */
+	font-size: 12px;
+	border: 2px outset #ffffff; /* Creates the 3D button effect */
+	box-shadow: 1px 1px 0 #000;
 }
 
 .nav-item a:hover {
