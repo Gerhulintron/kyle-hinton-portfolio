@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="utf-8">
+    <title>Kyle Hinton Projects - Asteroid Scan</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="../styles/SimStyle.css">
+    <link rel="stylesheet" href="../styles/KHPNavStyle.css"/>
 </head>
 <body style="background-color:#5D2150; color:#08A1A9;">
+<div id="navbar-container"></div>
 <div class="container">
     <div class="row">
         <div class="col-4">
@@ -55,6 +59,13 @@
 <div style="background-color:#E2E0B8">
     <!--    <img id="satelliteImage" src="https://api.nasa.gov/planetary/earth/imagery?lon=-114.33&lat=29.78&date=2018-01-01&dim=1.7&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO" width="75%" height="75%">-->
     <script>
+
+        fetch("KyleHintonProjectsNavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+
         today = getTodaysDate();
         var url = "https://api.nasa.gov/neo/rest/v1/feed?start_date=" + today + "&end_date=" + today + "&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
 
