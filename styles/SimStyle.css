@@ -103,6 +103,10 @@ a{
 	grid-gap: 2rem;
 }
 
+.project-date{
+	padding-left: 3%;
+}
+
 .project-item{
 	display: flex;
 	flex-direction: column;

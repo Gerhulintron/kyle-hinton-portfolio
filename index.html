@@ -104,6 +104,12 @@
             // descriptionHTML += imageHTML + descriptionHTML; // Close the description div
             portfolioHTML += descriptionHTML; // Combine the image and description HTML
 
+            if (project['project-date']) {
+                portfolioHTML += `<div class="project-date">
+                              <p>${project['project-date']}</p>
+                          </div>`;
+            }
+
             // Add other project details directly to portfolioHTML
             if (project['project-mediums']) {
                 portfolioHTML += `<div class="project-mediums">
