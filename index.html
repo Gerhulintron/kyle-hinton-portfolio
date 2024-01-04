@@ -67,7 +67,28 @@
                 }).join('');
 
                 portfolioContainer.innerHTML = projectHTML;
+
+                attachEventListeners();
             }
+        }
+
+        function attachEventListeners() {
+            document.querySelectorAll('.project-item').forEach(item => {
+                item.addEventListener('mousemove', (e) => {
+                    const rect = item.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    // Invert the direction by negating the dx and dy values
+                    const dx = -(x - rect.width / 2) / 10;
+                    const dy = -(y - rect.height / 2) / 10;
+                    const boxShadow = `${dx}px ${dy}px 2px gold`;
+                    item.style.boxShadow = boxShadow;
+                });
+
+                item.addEventListener('mouseleave', () => {
+                    item.style.boxShadow = 'none';
+                });
+            });
         }
 
         function createProjectHTML(project) {
@@ -150,6 +171,7 @@
 
             return portfolioHTML;
         }
+
 
     </script>
 </body>

@@ -136,6 +136,7 @@ a{
 	color: black;
 	/*border-radius: 17px;*/
 	/*padding: 3%;*/
+	transition: box-shadow 0.3s;
 }
 
 .project-item:hover{
