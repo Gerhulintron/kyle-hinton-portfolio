@@ -87,7 +87,17 @@ a{
 	grid-gap: 72px;
 }
 
+.development-outer-container{
+	padding-top:10%;
+}
 
+.web-design-outer-container{
+	padding-top:10%;
+}
+
+.creative-outer-container{
+	padding-top:10%;
+}
 
 .portfolio-container{
 	display: grid;
