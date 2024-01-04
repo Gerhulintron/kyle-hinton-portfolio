@@ -1,94 +1,95 @@
+/* Style for the main navbar container */
 .navbar {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 	background: #c0c0c0;
 	color: black;
-	padding: 0;
+	/*padding: 5px 0; !* Reduced padding *!*/
 	margin: 0;
-	left: 0;
-	right: 0;
 	width: 100%;
-
-	border: 2px solid; /* Border size */
-	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
+	border: 2px solid;
+	border-color: #ffffff #808080 #808080 #ffffff;
 	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+	position: fixed; /* Fix navbar to the top of the page */
+	top: 0; /* Align navbar to the top */
+	left: 0; /* Align navbar to the left */
+	z-index: 1000;
 }
 
-.nav-item {
-	text-align: center;
-	padding: 14px 20px;
+/* Style for navbar items and dropdown */
+.nav-item, .dropdown {
+	display: inline-block;
+	text-align: left; /* Align text to the left */
+	padding: 1px; /* Reduced padding */
 }
 
 .nav-item a {
 	display: inline-block;
 	padding: 5px 10px;
-	background-color: #c0c0c0; /* Light gray background, typical of Windows 95 */
+	background-color: #c0c0c0;
 	color: black;
 	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif; /* Fallback font similar to MS Sans Serif */
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
-	border: 2px outset #ffffff; /* Creates the 3D button effect */
+	border: 2px outset #ffffff;
 	box-shadow: 1px 1px 0 #000;
+	text-align: left; /* Align text to the left */
 }
 
-.dropbtn a{
-	display: inline-block;
-	padding: 5px 10px;
-	background-color: #c0c0c0; /* Light gray background, typical of Windows 95 */
-	color: black;
-	text-decoration: none; /* Remove underline from links */
-	font-family: Arial, Helvetica, sans-serif; /* Fallback font similar to MS Sans Serif */
-	font-size: 1rem;
-	border: 2px outset #ffffff; /* Creates the 3D button effect */
-	box-shadow: 1px 1px 0 #000;
+/* Style for navbar item links */
+.nav-item:hover {
+
+	/*border: 2px inset #ffffff;*/
+
 }
 
+/* Style for navbar item links on hover */
 .nav-item a:hover {
 	background-color: #226a50;
-	color:white;
+	color: white;
+	border: 2px inset #ffffff;
 }
 
-.dropbtn a:hover{
+/* Style for the dropdown button */
+.dropbtn {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #c0c0c0;
+	color: black;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	border: 2px outset #ffffff;
+	box-shadow: 1px 1px 0 #000;
+	text-align: left; /* Align text to the left */
+	position: relative;
+}
+
+/* Style for the dropdown button on hover */
+.dropbtn a:hover {
 	background-color: #226a50;
 	color: white;
 }
 
-/* Style the navbar */
-.navbar-container{
-	border: 2px solid; /* Border size */
-	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
-	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
-}
-
-/* Style the dropdown button */
-.dropbtn {
-	text-align: center;
-	padding: 14px 20px;
-	display: block;
-	color: white;
-	text-decoration: none;
-	position: relative; /* Add this to position the dropdown content correctly */
-}
-
-/* Dropdown container */
+/* Style for the dropdown container */
 .dropdown {
 	display: inline-block;
-	position: relative; /* Set to relative */
+	position: relative;
 }
 
-/* Dropdown content (hidden by default) */
+/* Style for the dropdown content (hidden by default) */
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	/*background-color: #f9f9f9;*/
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	left: 50%; /* Center the dropdown */
-	transform: translateX(-50%); /* Adjust the position to truly center it */
+	left: 0;
 }
 
-/* Links inside the dropdown */
+/* Style for links inside the dropdown */
 .dropdown-content a {
 	color: black;
 	padding: 12px 16px;
@@ -96,7 +97,7 @@
 	display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* Style for dropdown links on hover */
 .dropdown-content a:hover {
 	background-color: #226a50;
 }
@@ -104,9 +105,4 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
 	display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-	/* Your preferred styles */
 }
