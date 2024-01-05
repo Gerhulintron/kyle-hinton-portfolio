@@ -14,7 +14,14 @@ a{
 
 
 .body-container{
-	padding-top: 5%;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+.about-body-container{
+	padding-top: 15%;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 5%;
@@ -33,7 +40,7 @@ a{
 
 .kyle-hinton-bio-container:hover{
 	border-radius: 20px;
-	box-shadow: 30px 35px 2px #226a50;
+	box-shadow: 30px 35px 2px gold;
 	background: mediumpurple;
 
 }
@@ -297,6 +304,13 @@ ul.project-link-list li a:active {
 
 	.project-image-description-container{
 		flex-direction:column;
+	}
+
+	.about-body-container{
+		padding-top: 180px;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-bottom: 5%;
 	}
 }
 
