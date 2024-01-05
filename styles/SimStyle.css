@@ -208,11 +208,11 @@ a{
 }
 
 .project-image-container{
-	width:360px;
+	width:480px;
 }
 
 .project-feature-photo{
-	width:360px;
+	width:480px;
 }
 
 
@@ -304,11 +304,11 @@ ul.project-link-list li a:active {
 /* Styles for screens less than 600px wide */
 @media only screen and (max-width: 600px) {
 	.project-image-container{
-		width:240px;
+		width:360px;
 	}
 
 	.project-feature-photo{
-		width:240px;
+		width:360px;
 	}
 
 	.project-image-description-container{
@@ -318,11 +318,11 @@ ul.project-link-list li a:active {
 
 @media only screen and (max-width: 400px) {
 	.project-image-container{
-		width:180px;
+		width:240px;
 	}
 
 	.project-feature-photo{
-		width:180px;
+		width:240px;
 	}
 
 	.project-image-description-container{
