@@ -315,3 +315,17 @@ ul.project-link-list li a:active {
 		flex-direction:column;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.project-image-container{
+		width:180px;
+	}
+
+	.project-feature-photo{
+		width:180px;
+	}
+
+	.project-image-description-container{
+		flex-direction:column;
+	}
+}
