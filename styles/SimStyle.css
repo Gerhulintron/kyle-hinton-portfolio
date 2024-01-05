@@ -303,7 +303,13 @@ ul.project-link-list li a:active {
 /*Extra Small Devices (Phones, <600px):*/
 /* Styles for screens less than 600px wide */
 @media only screen and (max-width: 600px) {
+	.project-image-container{
+		width:240px;
+	}
 
+	.project-feature-photo{
+		width:240px;
+	}
 
 	.project-image-description-container{
 		flex-direction:column;

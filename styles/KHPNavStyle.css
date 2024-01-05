@@ -106,3 +106,29 @@
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) { /* Adjust the max-width as needed */
+
+	.body-container{
+		padding-top: 110px;
+	}
+
+	.navbar {
+		flex-direction: column; /* Stack items vertically */
+		align-items: stretch;
+		height: 108px;
+	}
+
+	.nav-item, .dropdown {
+		display: block; /* Stack items vertically */
+		width: 100%; /* Full width for each nav item */
+		text-align: left; /* Center align the text */
+	}
+
+	/* Additional styles for dropdown menu */
+	.dropdown-content {
+		position: static; /* Adjust dropdown positioning on small screens */
+	}
+
+}
