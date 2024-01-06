@@ -173,6 +173,22 @@
   },
 
   {
+    "project-title": "366 Days",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "Online Theatre, Web Design",
+    "project-presenter-producer": "Major Matt Mason",
+    "project-technology": "HTML, CSS, JS",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "366 Days Project Website",
+        "project-link": "https://www.blairscoolwebsite.xyz/"
+      }
+    ]
+  },
+
+  {
     "project-title": "Asteroid Scan",
     "project-type": "Development",
     "project-date": "2018 - Present",
