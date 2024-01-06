@@ -137,6 +137,38 @@
     ]
   },
 
+  {
+    "project-title": "March of the Bear Web Experience",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "HTML, CSS, Javascript",
+    "project-presenter-producer": "Across the March Theatre",
+    "project-technology": "HTML, CSS, Javascript",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+  {
+    "project-title": "Trojan Girls Web Experience",
+    "project-type": "Web Design",
+    "project-feature-photo-link": "",
+    "project-mediums": "HTML, CSS, Javascript",
+    "project-presenter-producer": "Across the March Theatre",
+    "project-technology": "HTML, CSS, Javascript",
+    "project-description": "",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
 
   {
     "project-title": "Boathaus Studios Website",
