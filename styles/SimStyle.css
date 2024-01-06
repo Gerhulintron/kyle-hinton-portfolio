@@ -20,6 +20,33 @@ a{
 	padding-bottom: 5%;
 }
 
+.contact-body-container{
+	display: grid;
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
+	grid-gap: 5%;
+	padding-top: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+
+.outer-contact-item{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid; /* Border size */
+	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
+	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+	background-color: #c0c0c0;
+	color: black;
+}
+
+.contact-title-container{
+	background: #000080;
+	margin: 3px;
+	color:white;
+}
+
 .about-body-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
@@ -172,6 +199,12 @@ a{
 
 .bio-title-container{
 	background: #000080;
+	margin: 3px;
+	color:white;
+}
+
+.contact-body-container{
+	/*background: #000080;*/
 	margin: 3px;
 	color:white;
 }
