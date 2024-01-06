@@ -21,6 +21,9 @@ a{
 }
 
 .about-body-container{
+	display: grid;
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
+	grid-gap: 5%;
 	padding-top: 15%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -36,6 +39,7 @@ a{
 	background-color: #c0c0c0;
 	color: black;
 
+
 }
 
 .kyle-hinton-bio-container:hover{
@@ -45,9 +49,6 @@ a{
 
 }
 
-#land-acknowledgement-container{
-	margin-top: 3%;
-}
 
 
 
