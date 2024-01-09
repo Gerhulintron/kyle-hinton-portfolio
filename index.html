@@ -110,10 +110,10 @@
             // Check if 'project-description' exists
             if (project['project-description']) {
 
-                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p>${project['project-description']}</p></div>`;
+                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p><strong>Description: </strong>${project['project-description']}</p></div>`;
             }
             else{
-                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p>No description at this time.</p></div>`;
+                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p><strong>Description: </strong>No description at this time.</p></div>`;
 
             }
 
@@ -121,26 +121,26 @@
 
             if (project['project-date']) {
                 descriptionHTML += `<div class="project-date">
-                              <p>${project['project-date']}</p>
+                              <p><strong>Project Date: </strong>${project['project-date']}</p>
                           </div>`;
             }
 
             // Add other project details directly to portfolioHTML
             if (project['project-mediums']) {
                 descriptionHTML += `<div class="project-mediums">
-                              <p>${project['project-mediums']}</p>
+                              <p><strong>Medium: </strong>${project['project-mediums']}</p>
                           </div>`;
             }
 
             if (project['project-technology']) {
                 descriptionHTML += `<div class="technology-languages">
-                              <p>${project['project-technology']}</p>
+                              <p><strong>Technology: </strong>${project['project-technology']}</p>
                           </div>`;
             }
 
             if (project['project-presenter-producer']) {
                 descriptionHTML += `<div class="project-presenter-producer">
-                              <p>${project['project-presenter-producer']}</p>
+                              <p><strong>Presenter/Producers: </strong>${project['project-presenter-producer']}</p>
                           </div>`;
             }
 
@@ -156,7 +156,7 @@
 
 // Add the links HTML only if it's not empty
             if (linksHTML.trim().length > 0) {
-                descriptionHTML += `<div class="project-links"><h3>Project Links:</h3><ul class="project-link-list">${linksHTML}</ul></div>`;
+                descriptionHTML += `<div class="project-links"><p><strong>Project Links: </strong></p><ul class="project-link-list">${linksHTML}</ul></div>`;
 
             }
                 descriptionHTML += `</div></div>`; // Close the description div
