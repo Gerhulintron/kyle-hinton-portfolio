@@ -35,6 +35,13 @@ a{
 	padding-bottom: 5%;
 }
 
+#kyle-hinton-title{
+	font-size: 4rem;
+}
+
+#kyle-hinton-sub-title{
+	font-size: 2rem;
+}
 
 .outer-contact-item{
 	display: flex;
@@ -335,8 +342,17 @@ ul.project-link-list li a:active {
 /* Styles for screens between 768px and 992px wide */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
+
 	.project-image-description-container{
 		flex-direction:column;
+	}
+
+	#kyle-hinton-title{
+		font-size: 3rem;
+	}
+
+	#kyle-hinton-sub-title{
+		font-size: 1.5rem;
 	}
 
 }
@@ -356,6 +372,18 @@ ul.project-link-list li a:active {
 		padding-right: 10%;
 		padding-bottom: 5%;
 	}
+
+	.body-container{
+		padding-top: 360px;
+	}
+
+	#kyle-hinton-title{
+		font-size: 2.5rem;
+	}
+
+	#kyle-hinton-sub-title{
+		font-size: 1.2rem;
+	}
 }
 
 /*Extra Small Devices (Phones, <600px):*/
@@ -371,6 +399,14 @@ ul.project-link-list li a:active {
 
 	.project-image-description-container{
 		flex-direction:column;
+	}
+
+	#kyle-hinton-title{
+		font-size: 2rem;
+	}
+
+	#kyle-hinton-sub-title{
+		font-size: 1rem;
 	}
 }
 
