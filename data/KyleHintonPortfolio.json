@@ -98,8 +98,8 @@
     "project-description": "Augle was an augmented reality art experience where users can experience animated versions of artists' work. This was a full-stack application built in Unity C# and used a backend that was built with Python and Django.",
     "project-links": [
       {
-        "link-name": "Disinformation Warriors",
-        "project-link": "https://www.disinformationwarriors.ca/"
+        "link-name": "",
+        "project-link": ""
       }
     ]
   },
