@@ -53,6 +53,10 @@ a{
 	padding-left: 3%;
 }
 
+.contact-description-container{
+	padding-left:5%;
+}
+
 .about-body-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
