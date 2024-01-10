@@ -20,6 +20,11 @@ a{
 	padding-bottom: 5%;
 }
 
+.heading-container{
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
 .contact-body-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
