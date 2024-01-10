@@ -17,18 +17,18 @@
 
             <div class="development-outer-container" id="development-outer-container">
                 <h1>Development</h1>
-                <div class="development-portfolio-container">
+                <div id="development-portfolio-container">
                 </div>
             </div>
             <div class="web-design-outer-container" id="web-design-outer-container">
                 <h1>Web Design</h1>
-                <div class="web-design-grid-container">
+                <div id="web-design-grid-container">
                 </div>
             </div>
 
             <div class="creative-outer-container" id="creative-outer-container">
                 <h1>Creative</h1>
-                <div class="creative-grid-container">
+                <div id="creative-grid-container">
                 </div>
             </div>
         </div>
@@ -43,9 +43,9 @@
                 return response.json();
             })
             .then(data => {
-                displayProjects(data, '.development-portfolio-container', 'Development');
-                displayProjects(data, '.creative-grid-container', 'Creative');
-                displayProjects(data, '.web-design-grid-container', 'Web Design');
+                displayProjects(data, 'development-portfolio-container', 'Development');
+                displayProjects(data, 'creative-grid-container', 'Creative');
+                displayProjects(data, 'web-design-grid-container', 'Web Design');
 
             })
             .catch(error => {
@@ -58,8 +58,8 @@
                 document.getElementById('navbar-container').innerHTML = data;
             });
 
-        function displayProjects(data, containerClassName, projectType) {
-            const portfolioContainer = document.querySelector(containerClassName);
+        function displayProjects(data, containerIdName, projectType) {
+            const portfolioContainer = document.getElementById(containerIdName);
 
             if (portfolioContainer) {
                 const projectHTML = data['kyle-hinton-projects'].map(project => {

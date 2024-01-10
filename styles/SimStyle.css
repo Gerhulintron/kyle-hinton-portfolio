@@ -121,22 +121,25 @@ a{
 	grid-gap: 56px;
 }
 
-.development-portfolio-container{
+#development-portfolio-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
 	grid-gap: 72px;
+
 }
 
-.web-design-grid-container{
+#web-design-grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
 	grid-gap: 72px;
+
 }
 
-.creative-grid-container{
+#creative-grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
 	grid-gap: 72px;
+
 }
 
 .development-outer-container{
@@ -295,12 +298,13 @@ a{
 
 ul.project-link-list {
 	list-style: none; /* Remove default list styling */
-	/*padding: 0; !* Remove default padding *!*/
+	padding: 0; /* Remove default padding */
 }
 
 ul.project-link-list li {
 	display: inline-block; /* Display list items inline */
-	margin-right: 10px; /* Spacing between buttons */
+	/*margin-right: 10px; !* Spacing between buttons *!*/
+	margin-top: 3px;
 }
 
 ul.project-link-list li a {
@@ -313,6 +317,7 @@ ul.project-link-list li a {
 	font-size: 1rem;
 	border: 2px outset #ffffff; /* Creates the 3D button effect */
 	box-shadow: 1px 1px 0 #000; /* Adds depth to the button */
+
 }
 
 ul.project-link-list li a:hover{
