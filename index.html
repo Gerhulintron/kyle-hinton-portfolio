@@ -120,7 +120,7 @@
 
             const displayTerm = searchTerm ? 'Portfolio - ' + document.getElementById('searchInput').value : 'All';
             document.getElementById('search-title').innerText = displayTerm;
-            document.getElementById('search-title').innerText = 'Portfolio - ' + displayTerm  || 'Portfolio - All';
+            document.getElementById('search-title').innerText = displayTerm  || 'Portfolio - All';
             fetch('data/KyleHintonPortfolio.json')
                 .then(response => response.json())
                 .then(data => {
