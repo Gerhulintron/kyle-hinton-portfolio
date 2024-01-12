@@ -69,7 +69,9 @@
             .then(data => {
                 document.getElementById('navbar-container').innerHTML = data;
             });
-        posthog.capture('Asteroid Page Visited', { property: 'value' });
+        
+        posthog.capture('Asteroid Page Visited');
+
         today = getTodaysDate();
         var url = "https://api.nasa.gov/neo/rest/v1/feed?start_date=" + today + "&end_date=" + today + "&api_key=9RmEI1n5UNrfxpI69VgHkDGfTwVXZmDdKavZ8BxO";
 
