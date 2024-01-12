@@ -46,7 +46,7 @@
   {
     "project-title": "Disinformation Warriors",
     "project-type": "Development",
-    "project-date": "",
+    "project-date": "November 2020 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/disinfo_badge_feb26.png",
     "project-mediums": "Web Development, Project Architecture",
     "project-presenter-producer": "Calgary Animated Objects Society",
@@ -220,7 +220,7 @@
   },
 
   {
-    "project-title": "366 Days",
+    "project-title": "366 Days by David Gagnon Walker",
     "project-type": "Web Design",
     "project-feature-photo-link": "",
     "project-mediums": "Online Theatre, Web Design",
@@ -228,6 +228,10 @@
     "project-technology": "HTML, CSS, JS",
     "project-description": "",
     "project-links": [
+      {
+        "link-name": "Major Matt Mason Website",
+        "project-link": "https://mmmtheatrecollective.com/"
+      },
       {
         "link-name": "366 Days Project Website",
         "project-link": "https://www.blairscoolwebsite.xyz/"
@@ -274,9 +278,9 @@
     "project-type": "Creative",
     "project-date": "October 29 2021",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/do-not-microwave/DoNotMicrowave45.jpg",
-    "project-mediums": "Performance, movement, music composition",
+    "project-mediums": "Performance, Movement, Sound Design, Puppetry",
     "project-presenter-producer": "Presented Springboard Performance, Fluid Festival 2022",
-    "project-technology": "",
+    "project-technology": "OBS, Ableton",
     "project-description": "Warning: DO NOT MICROWAVE is a music-movement-mask collaboration between Kyle Hinton and Jocelyn Mah, composed of several short scenes. Kyle and Jocelyn like to think and play outside the box – or microwave.",
     "project-links": [
       {
@@ -288,7 +292,7 @@
 
   {
     "project-title": "Wastelands",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "March 2022",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Film",
@@ -309,10 +313,10 @@
 
   {
     "project-title": "Northern Reflections - Goldfinch Flurry",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "January - February 2021",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/GoldfinchFlurry-scaled.jpg",
-    "project-mediums": "Sound Design, Augmented Reality",
+    "project-mediums": "Sound Design, Music, Augmented Reality",
     "project-presenter-producer": "Maud Collective, Twitchin' Threadz",
     "project-technology": "",
     "project-description": "Check out what’s happening on the “Augmented Reality” side of YYC with Northern Reflections Inglewood, by Maud Collective.\n\n                        I’m feeling incredibly grateful for being part of such a talented project team which included Sarah Johnston, who painted the amazing mural at Twitchin Threadz, and Mackenzie Bedford, who created the fantastic animation which you can find in the Augmented Reality realm using the app called Augle. I’m so stoked to hear my music paired with these phenomenal visuals!",
@@ -326,7 +330,7 @@
 
   {
     "project-title": "These Four Walls",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "September 2020",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Jay-Square-2-1024x1024-1.jpg",
     "project-mediums": "Sound Design, Audio Play",
@@ -336,14 +340,14 @@
     "project-links": [
       {
         "link-name": "http://www.queercalendar.ca/",
-        "project-link": "https://queercalendar.ca/"
+        "project-link": "Queer Calendar.ca"
       }
     ]
   },
 
   {
     "project-title": "Our Canada Our Story",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "February 1st 2020",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Theatre",
@@ -364,10 +368,10 @@
 
   {
     "project-title": "Life on the Wedge",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design, Puppetry",
     "project-date": "",
     "project-feature-photo-link": "",
-    "project-mediums": "Sound Design",
+    "project-mediums": "Sound Design, Puppetry",
     "project-presenter-producer": "Bach and Tots, CSpace",
     "project-technology": "",
     "project-description": "For this lovely kids theatre project, I got to create the sound design and compose new electronic music arrangements for this show. The play is about two mice who have different levels of privilege and challenges based on where they reside in their house. One mouse lives nice and close to school and food while another has to always go around a cat to get anything. I had a fun time creating music for kids theatre that used sounds that would sound like mice running around with their dainty and tiny little feet. It’s always really neat to see your musical compositions come to life in stories and theatre. Additionally, I got to create a little suitcase puppet trunk to create the classroom of mice scenes. The suitcase allowed actors to control multiple mice-puppet characters at once, inside the classroom scene.",
@@ -380,7 +384,7 @@
   },
   {
     "project-title": "Constructed Nature",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "November 1 – December 31 2018",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Sound Installation",
@@ -397,7 +401,7 @@
 
   {
     "project-title": "Echo Location Station",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "October 28-29 2016",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/EchoLocationStation.jpg",
     "project-mediums": "Sound Design, Installation Art",
@@ -413,28 +417,11 @@
   },
 
   {
-    "project-title": "Feminazis at the Common Ground Festival",
-    "project-type": "Creative",
-    "project-date": "",
-    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Feminazis.jpg",
-    "project-mediums": "Sound Design, Theatre",
-    "project-presenter-producer": "",
-    "project-technology": "",
-    "project-description": "",
-    "project-links": [
-      {
-        "link-name": "",
-        "project-link": ""
-      }
-    ]
-  },
-
-  {
     "project-title": "Absurdable Universe",
-    "project-type": "Creative",
+    "project-type": "Creative, Writing",
     "project-date": "",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/AbsurdableUniverse.jpg",
-    "project-mediums": "Playwright",
+    "project-mediums": "Playwriting",
     "project-presenter-producer": "",
     "project-technology": "",
     "project-description": "Dizzy is trying to prove to the world that the Universe needs to give itself meaning in order to exist, and he is going to prove it by writing a play. His play is about two scientists who discover the pre-universe through their scope. Meanwhile the same pre-universe is travelling through the cosmos and the pages, to find meaning in the ocean of chaos and infinitude.",
@@ -448,7 +435,7 @@
 
   {
     "project-title": "A Weird Kind of Openness: Footnotes",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "May 2016",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design",
@@ -465,7 +452,7 @@
 
   {
     "project-title": "Multi-Dimensional Emergency Staircase || Spark: Artist Performance Tours, Fission/Fusion",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Site-Specific Installation",
@@ -482,10 +469,10 @@
 
   {
     "project-title": "Absurdable Universe",
-    "project-type": "Creative",
+    "project-type": "Creative, Writing",
     "project-date": "March 29 2015",
     "project-feature-photo-link": "",
-    "project-mediums": "Playwright",
+    "project-mediums": "Playwriting",
     "project-presenter-producer": "Presented by Chromatic Theatre, Greater Forest Lawn Playwright Lab",
     "project-technology": "",
     "project-description": "Dizzy is trying to prove to the world that the Universe needs to give itself meaning in order to exist, and he is going to prove it by writing a play. His play is about two scientists who discover the pre-universe through their scope. Meanwhile the same pre-universe is travelling through the cosmos and the pages, to find meaning in the ocean of chaos and infinitude. Special Thanks to Jenna Rodgers, Neil Flemming, Chelsea Dwarika, Kelly Malcolm, Dan Perry, and Andrew Merrigan.",
@@ -499,7 +486,7 @@
 
   {
     "project-title": "Like Hell",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "March 25 2015",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design",
@@ -516,7 +503,7 @@
 
   {
     "project-title": "Cowboy Versus Samurai",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "November 13-27 2014",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/cowboy-vs-samurai-poster1.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -533,7 +520,7 @@
 
   {
     "project-title": "The Servant",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "November 4-7 2014",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/The-Servant.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -550,7 +537,7 @@
 
   {
     "project-title": "Let Down Your Hair",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "June 19-21 2014",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Site-Specific Installation, Performance Art",
@@ -567,7 +554,7 @@
 
   {
     "project-title": "10 Minute Play Festival",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/10min2015_thumb1.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -601,7 +588,7 @@
 
   {
     "project-title": "Soundasaurus 2013: Simulations",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "October 2013",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/Soundasaurus2013.jpg",
     "project-mediums": "Electronic Music Performance, Audio/Visual",
@@ -618,7 +605,7 @@
 
   {
     "project-title": "i-Robot Theatre",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "September 11-22 2013",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/irobot2013_small.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -635,7 +622,7 @@
 
   {
     "project-title": "Rabbit: An Immersive Screenplay Reading",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "December 10-15 2012",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Theatre",
@@ -652,7 +639,7 @@
 
   {
     "project-title": "Soundasaurus 2012: Simulations",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "2012",
     "project-feature-photo-link": "",
     "project-mediums": "Electronic Music Performance, Audio/Visual",
@@ -669,7 +656,7 @@
 
   {
     "project-title": "The Deep Find",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design, Movement",
     "project-date": "October 15-16 2012",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/the-deep-find/TheDeepFind2.jpg",
     "project-mediums": "Site-Specific, Sound Composition, Movement, Collaborative Creation",
@@ -686,7 +673,7 @@
 
   {
     "project-title": "Sounds from a Bucket of Paint",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "",
     "project-feature-photo-link": "",
     "project-mediums": "Audio/Visual Performance Creation",
@@ -703,7 +690,7 @@
 
   {
     "project-title": "Found Sound/Shared Story Project",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "September 29-30",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/KyleTylerFoundSoundSharedStory.jpg",
     "project-mediums": "Sound Installation",
@@ -720,7 +707,7 @@
 
   {
     "project-title": "S/Kin",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "August 13-21 2011",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/SKIN.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -737,7 +724,7 @@
 
   {
     "project-title": "i-Robot Theatre",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "June 2011",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/irobot2013_small.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -754,7 +741,7 @@
 
   {
     "project-title": "The Bear and the Dishes",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "2012",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/real-life-action/392749_10150915345580720_654895719_21297597_444634935_n.jpg",
     "project-mediums": "Audio/Visual Performance Creation",
@@ -771,7 +758,7 @@
 
   {
     "project-title": "The Disembodied Lady",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "June 2011",
     "project-feature-photo-link": "",
     "project-mediums": "Sound Design, Theatre",
@@ -788,7 +775,7 @@
 
   {
     "project-title": "Freak Show: Into the Abyss",
-    "project-type": "Creative",
+    "project-type": "Creative, Sound Design",
     "project-date": "January 2011",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/freakshow2011_smaller.jpg",
     "project-mediums": "Sound Design, Theatre",
@@ -805,10 +792,10 @@
 
   {
     "project-title": "Characters and Violence",
-    "project-type": "Creative",
+    "project-type": "Creative, Writing",
     "project-date": "June 2010",
     "project-feature-photo-link": "",
-    "project-mediums": "Playwright, Theatre",
+    "project-mediums": "Play Writing, Theatre",
     "project-presenter-producer": "Nextfest 2010",
     "project-technology": "",
     "project-description": "Characters and Violence is about a detective who wakes up in the middle of the town of The Bermuda Triangle to find that everyone has disappeared. The detective eventually meets a writer who seems to be talking to the characters and essays that they created.",

@@ -24,6 +24,7 @@
                 <button id="development-search-button">Development</button>
                 <button id="web-design-search-button">Web Design</button>
                 <button id="creative-search-button">Creative</button>
+                <button id="sound-design-search-button">Sound Design</button>
             </div>
             <div class="portfolio-outer-container" id="development-outer-container">
                 <h1 id="search-title">Portfolio</h1>
@@ -85,6 +86,14 @@
             searchProjectsByType();
         });
 
+        document.getElementById('sound-design-search-button').addEventListener('click', function() {
+            // Set your preset search term
+            const presetTerm = "Sound Design"; // Replace this with your actual preset term
+            document.getElementById('searchInput').value = presetTerm;
+
+            // Call the search function
+            searchProjectsByType();
+        });
 
 
         fetch('data/KyleHintonPortfolio.json')
