@@ -351,6 +351,52 @@ ul.project-link-list li a:active {
 	border-style: inset; /* Changes the button appearance when clicked */
 }
 
+
+.search-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding: 10px;
+	gap: 10px; /* Spacing between elements */
+}
+
+button {
+	padding: 5px 10px;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif; /* Typical Windows 95 font */
+	background-color: #c0c0c0; /* Gray background */
+	color: black;
+	border: 1px solid #fff; /* Light border for 3D effect */
+	border-right-color: #808080; /* Darker right border */
+	border-bottom-color: #808080; /* Darker bottom border */
+	outline: none;
+}
+
+#searchInput{
+	padding: 5px 10px;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif; /* Typical Windows 95 font */
+	background-color: white; /* Gray background */
+	color: black;
+	border: 1px solid #fff; /* Light border for 3D effect */
+	border-right-color: #808080; /* Darker right border */
+	border-bottom-color: #808080; /* Darker bottom border */
+	outline: none;
+}
+
+.search-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+
+	gap: 10px; /* Spacing between elements */
+	/*background-color: #c0c0c0; !* Gray background *!*/
+}
+
+button:hover {
+	background-color: #226a50;
+}
+
 /*Extra Large Devices (Large Desktops, >1200px):*/
 /*Styles for screens wider than 1200px */
 @media only screen and (min-width: 1200px) {
@@ -378,6 +424,14 @@ ul.project-link-list li a:active {
 
 	#kyle-hinton-sub-title{
 		font-size: 1.5rem;
+	}
+
+	.search-container {
+		flex-direction: column;
+	}
+
+	#searchInput, button {
+		width: 100%;
 	}
 
 }
