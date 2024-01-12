@@ -56,6 +56,8 @@
                 console.error("There has been a problem with your fetch operation", error);
             });
 
+        posthog.capture('my event', { property: 'value' });
+
         fetch("pages/KyleHintonProjectsNavbar.html")
             .then(response => response.text())
             .then(data => {
