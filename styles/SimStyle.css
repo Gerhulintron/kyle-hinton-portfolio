@@ -130,6 +130,14 @@ a{
 	grid-gap: 56px;
 }
 
+#portfolio-container{
+	display: grid;
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
+	grid-gap: 72px;
+
+}
+
+
 #development-portfolio-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));

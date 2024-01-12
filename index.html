@@ -21,28 +21,71 @@
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search projects...">
                 <button onclick="searchProjects()">Search</button>
+                <button id="development-search-button">Development</button>
+                <button id="web-design-search-button">Web Design</button>
+                <button id="creative-search-button">Creative</button>
             </div>
-            <div class="development-outer-container" id="development-outer-container">
-                <h1>Development</h1>
-                <div id="development-portfolio-container">
+            <div class="portfolio-outer-container" id="development-outer-container">
+                <h1 id="search-title">Portfolio</h1>
+                <div id="portfolio-container">
                 </div>
             </div>
-            <div class="web-design-outer-container" id="web-design-outer-container">
-                <h1>Web Design</h1>
-                <div id="web-design-grid-container">
-                </div>
-            </div>
+<!--            <div class="web-design-outer-container" id="web-design-outer-container">-->
+<!--                <h1>Web Design</h1>-->
+<!--                <div id="web-design-grid-container">-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="creative-outer-container" id="creative-outer-container">
-                <h1>Creative</h1>
-                <div id="creative-grid-container">
-                </div>
-            </div>
+<!--            <div class="creative-outer-container" id="creative-outer-container">-->
+<!--                <h1>Creative</h1>-->
+<!--                <div id="creative-grid-container">-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
 
     <script>
 
         posthog.capture('Home Page Visited');
+
+        document.getElementById('searchInput').addEventListener('keypress', function(event) {
+            // Check if the key pressed is 'Enter'
+            if (event.keyCode === 13 || event.which === 13) {
+                // Prevent the default action to avoid form submission
+                event.preventDefault();
+
+                // Call the search function
+                searchProjects();
+            }
+        });
+
+        document.getElementById('development-search-button').addEventListener('click', function() {
+            // Set your preset search term
+            const presetTerm = "Development"; // Replace this with your actual preset term
+            document.getElementById('searchInput').value = presetTerm;
+
+            // Call the search function
+            searchProjectsByType();
+        });
+
+        document.getElementById('web-design-search-button').addEventListener('click', function() {
+            // Set your preset search term
+            const presetTerm = "Web Design"; // Replace this with your actual preset term
+            document.getElementById('searchInput').value = presetTerm;
+
+            // Call the search function
+            searchProjectsByType();
+        });
+
+        document.getElementById('creative-search-button').addEventListener('click', function() {
+            // Set your preset search term
+            const presetTerm = "Creative"; // Replace this with your actual preset term
+            document.getElementById('searchInput').value = presetTerm;
+
+            // Call the search function
+            searchProjectsByType();
+        });
+
+
 
         fetch('data/KyleHintonPortfolio.json')
             .then(response => {
@@ -60,9 +103,10 @@
             });
 
         function displayAllProjects(allProjects) {
-            displayProjects(allProjects, 'development-portfolio-container', 'Development');
-            displayProjects(allProjects, 'creative-grid-container', 'Creative');
-            displayProjects(allProjects, 'web-design-grid-container', 'Web Design');
+            displayProjects(allProjects, 'portfolio-container');
+            // displayProjects(allProjects, 'development-portfolio-container');
+            // displayProjects(allProjects, 'creative-grid-container', 'Creative');
+            // displayProjects(allProjects, 'web-design-grid-container', 'Web Design');
         }
 
         fetch("pages/KyleHintonProjectsNavbar.html")
@@ -73,19 +117,43 @@
 
         function searchProjects() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            const displayTerm = searchTerm ? 'Portfolio - ' + document.getElementById('searchInput').value : 'All';
+            document.getElementById('search-title').innerText = displayTerm;
+            document.getElementById('search-title').innerText = 'Portfolio - ' + displayTerm  || 'Portfolio - All';
             fetch('data/KyleHintonPortfolio.json')
                 .then(response => response.json())
                 .then(data => {
                     const filteredData = data['kyle-hinton-projects'].filter(project => {
                         return project['project-title'].toLowerCase().includes(searchTerm) ||
                             project['project-mediums'].toLowerCase().includes(searchTerm) ||
+                            project['project-type'].toLowerCase().includes(searchTerm) ||
                             project['project-technology'].toLowerCase().includes(searchTerm) ||
                             project['project-presenter-producer'].toLowerCase().includes(searchTerm) ||
                             project['project-description'].toLowerCase().includes(searchTerm);
                     });
-                    displayProjects(filteredData, 'development-portfolio-container', 'Development');
-                    displayProjects(filteredData, 'creative-grid-container', 'Creative');
-                    displayProjects(filteredData, 'web-design-grid-container', 'Web Design');
+                    displayProjects(filteredData, 'portfolio-container');
+                    // displayProjects(filteredData, 'development-portfolio-container', 'Development');
+                    // displayProjects(filteredData, 'creative-grid-container', 'Creative');
+                    // displayProjects(filteredData, 'web-design-grid-container', 'Web Design');
+                });
+        }
+
+        function searchProjectsByType() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const displayTerm = searchTerm ? 'Portfolio - ' + document.getElementById('searchInput').value : 'Portfolio';
+            document.getElementById('search-title').innerText = displayTerm;
+            fetch('data/KyleHintonPortfolio.json')
+                .then(response => response.json())
+                .then(data => {
+                    const filteredData = data['kyle-hinton-projects'].filter(project => {
+                        return project['project-type'].toLowerCase().includes(searchTerm);
+
+                    });
+                    displayProjects(filteredData, 'portfolio-container');
+                    // displayProjects(filteredData, 'development-portfolio-container', 'Development');
+                    // displayProjects(filteredData, 'creative-grid-container', 'Creative');
+                    // displayProjects(filteredData, 'web-design-grid-container', 'Web Design');
                 });
         }
 
