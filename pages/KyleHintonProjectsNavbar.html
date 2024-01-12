@@ -1,8 +1,10 @@
 
 <div class="navbar">
-    <div class="nav-item"><a href="/index.html"><strong>Home</strong></a></div>
-    <div class="nav-item"><a href="/pages/About.html"><strong>About</strong></a></div>
-    <div class="nav-item"><a href="/pages/Contact.html"><strong>Contact</strong></a></div>
+    <!-- Left-side nav items -->
+    <div class="nav-items-container">
+        <div class="nav-item"><a href="/index.html"><strong>Home</strong></a></div>
+        <div class="nav-item"><a href="/pages/About.html"><strong>About</strong></a></div>
+        <div class="nav-item"><a href="/pages/Contact.html"><strong>Contact</strong></a></div>
 
 <!--    <div class="dropdown">-->
 <!--        <div class="nav-item"><a class="dropbtn"><strong>Portfolio</strong></a></div>-->
@@ -12,5 +14,35 @@
 <!--            <div class="nav-item"><a href="/index.html#creative-outer-container"><strong>Creative</strong></a></div>-->
 <!--        </div>-->
 <!--    </div>-->
+    </div>
+
+    <!-- Right-side social media icons -->
+    <div class="social-items-container">
+        <div class="social-item"><img src="icons/7559931_twitter_media_social_pixel_logo_icon.png" alt="Twitter"/></div>
+        <div class="social-item"><img src="icons/7559936_instagram_pixel_logo_social%20media_icon.png" alt="Instagram"/></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("DOMContentLoaded event triggered"); // Test log
+
+            var navbar = document.querySelector('.navbar');
+            var spotlight = document.createElement('div');
+            spotlight.classList.add('spotlight');
+            navbar.appendChild(spotlight);
+
+            navbar.addEventListener('mousemove', function(e) {
+                spotlight.style.display = 'block';
+                var x = e.clientX - navbar.getBoundingClientRect().left;
+                var y = e.clientY - navbar.getBoundingClientRect().top;
+                spotlight.style.transform = `translate(${x}px, ${y}px)`;
+            });
+
+            navbar.addEventListener('mouseleave', function() {
+                spotlight.style.display = 'none';
+            });
+        });
+
+    </script>
+
 
 </div>
