@@ -291,6 +291,23 @@
   },
 
   {
+    "project-title": "Simulations",
+    "project-type": "Music, Sound Design",
+    "project-date": "2010 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/headshots/KyleHintonSimulations.JPG",
+    "project-mediums": "Electronic Music, Sound Design",
+    "project-presenter-producer": "Kyle Hinton, Simulations",
+    "project-technology": "Ableton Live, Max/MSP, Anything that makes sound",
+    "project-description": "Kyle Hinton aka Simulations explores and builds cerebral atmospheres and rhythms with his rich electronic music, in studio and in performance.",
+    "project-links": [
+      {
+        "link-name": "Simulations Bandcamp",
+        "project-link": "https://kylehinton.bandcamp.com/"
+      }
+    ]
+  },
+
+  {
     "project-title": "Wastelands",
     "project-type": "Creative, Sound Design",
     "project-date": "March 2022",
