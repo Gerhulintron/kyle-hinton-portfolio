@@ -238,7 +238,7 @@
 
 
             if (project['project-title']) {
-                portfolioHTML += `<div class="project-title-container"><h1 class="project-title">${project['project-title']}</h1></div>`;
+                portfolioHTML += `<div class="project-title-container"><h3 class="project-title">${project['project-title']}</h3></div>`;
             }
 
 
@@ -249,19 +249,12 @@
                      </div>`;
             }
 
-            // Check if 'project-title' exists
-
-            // Check if 'project-description' exists
+            // Project description
             if (project['project-description']) {
-
-                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p><strong>Description: </strong>${project['project-description']}</p></div>`;
+                descriptionHTML += `<div class="project-description-container"><p><strong>Description: </strong>${project['project-description']}</p></div>`;
+            } else {
+                descriptionHTML += `<div class="project-description-container"><p><strong>Description: </strong>No description at this time.</p></div>`;
             }
-            else{
-                descriptionHTML += `<div class="outer-description-container"><div class="project-description-container"><p><strong>Description: </strong>No description at this time.</p></div>`;
-
-            }
-
-
 
             if (project['project-date']) {
                 descriptionHTML += `<div class="project-date">
@@ -288,8 +281,6 @@
                           </div>`;
             }
 
-
-
             const linksHTML = project['project-links'].map(link => {
                 // Check if both 'project-link' and 'link-name' exist and are not empty
                 if (link['project-link'] && link['link-name']) {
@@ -301,12 +292,9 @@
 // Add the links HTML only if it's not empty
             if (linksHTML.trim().length > 0) {
                 descriptionHTML += `<div class="project-links"><p><strong>Project Links: </strong></p><ul class="project-link-list">${linksHTML}</ul></div>`;
-
             }
-                descriptionHTML += `</div></div>`; // Close the description div
-                // descriptionHTML += imageHTML + descriptionHTML; // Close the description div
-                portfolioHTML += descriptionHTML; // Combine the image and description HTML
-
+            descriptionHTML += `</div>`; // Close the project-image-description-container
+            portfolioHTML += descriptionHTML; // Combine the image and description HTML
             portfolioHTML += `</div>`; // Close the project item div
 
             return portfolioHTML;

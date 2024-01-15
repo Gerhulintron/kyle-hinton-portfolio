@@ -133,7 +133,7 @@ a{
 #portfolio-container{
 	display: grid;
 	grid-template-columns: repeat(3, minmax(100px, 1fr));
-	grid-gap: 72px;
+	grid-gap: 36px;
 
 }
 
@@ -173,7 +173,7 @@ a{
 
 .portfolio-container{
 	display: grid;
-	grid-template-columns: repeat(2, minmax(100px, 1fr));
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
 	grid-gap: 72px;
 }
 
@@ -197,8 +197,12 @@ a{
 
 
 .project-item{
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	/*grid-template-rows: auto;*/
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
+	align-self: start;
+	/*display:flex;*/
+	/*flex-direction: column;*/
 	border: 2px solid; /* Border size */
 	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
 	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
@@ -229,7 +233,10 @@ a{
 
 .project-title-container{
 	background: #000080;
-	margin: 3px;
+	padding: 0;
+	height: fit-content; /* Adjust height automatically based on the content */
+	/*display: block;*/
+	/*margin: 3px;*/
 }
 
 .bio-title-container{
@@ -269,23 +276,23 @@ a{
 }
 
 
-
-
-
 .project-image-description-container{
 	padding: 3%;
-	display:flex;
-	flex-direction: column;
+	display: grid;
+	/*grid-template-rows: auto;*/
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
 }
 
 .outer-description-container{
-	display:flex;
-	flex-direction:column;
+	display:grid;
+	/*grid-template-rows: auto;*/
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
 
 }
 
-.project-image-container{
-	/*width:480px;*/
+.project-image-container {
+	display: grid;
+	/* Define rows and columns as required */
 }
 
 .project-feature-photo{
