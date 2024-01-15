@@ -171,6 +171,11 @@
 
             if (!portfolioContainer) return;
 
+            // Start the fade out effect
+            portfolioContainer.classList.add('fade-effect');
+
+            setTimeout(() => {
+
             let filteredData = data;
 
             // Check if projectType is provided and filter data accordingly
@@ -181,6 +186,10 @@
             const projectHTML = filteredData.map(project => createProjectHTML(project)).join('');
             portfolioContainer.innerHTML = projectHTML;
             attachEventListeners();
+
+                // Fade in the new content
+                portfolioContainer.classList.remove('fade-effect');
+            }, 500); // This should match the duration of the CSS transition
         }
 
         function attachEventListeners() {
