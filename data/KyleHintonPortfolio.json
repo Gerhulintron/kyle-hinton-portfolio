@@ -108,7 +108,7 @@
 
   {
     "project-title": "The Critical Thinking Detective",
-    "project-type": "GPT",
+    "project-type": "Custom GPT",
     "project-date": "November 2023 - present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/gpt-logos/CriticalThinkingDetectiveLogo.png",
     "project-mediums": "AI Language Model",
@@ -119,6 +119,23 @@
       {
         "link-name": "Link to the GPT - Critical Thinking Detective",
         "project-link": "https://chat.openai.com/g/g-eGkATnNTT-critical-thinking-detective"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Grant Assist",
+    "project-type": "Custom GPT",
+    "project-date": "January 2024 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/gpt-logos/f795d15c-ace7-42ad-b91d-d220de2d7528.png",
+    "project-mediums": "AI Language Model, Custom GPT",
+    "project-presenter-producer": "Kyle Hinton Projects",
+    "project-technology": "Chat GPT",
+    "project-description": "Direct, honest, and friendly guide for artists seeking grants and funding opportunities.",
+    "project-links": [
+      {
+        "link-name": "Link to the GPT - Grant Assist",
+        "project-link": "https://chat.openai.com/g/g-JRTXonTeD-grant-assist"
       }
     ]
   },
@@ -324,7 +341,12 @@
       {
         "link-name": "Simulations Bandcamp",
         "project-link": "https://kylehinton.bandcamp.com/"
+      },
+      {
+        "link-name": "Simulations Soundcloud",
+        "project-link": "https://soundcloud.com/kylehinton"
       }
+
     ]
   },
 
@@ -844,7 +866,4 @@
       }
     ]
   }
-
-
-
 ] }
