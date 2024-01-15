@@ -25,6 +25,7 @@
                 <button id="web-design-search-button">Web Design</button>
                 <button id="creative-search-button">Creative</button>
                 <button id="sound-design-search-button">Sound Design</button>
+                <button id="music-search-button">Music</button>
                 <button id="custom-gpt-search-button">Custom GPT</button>
             </div>
             <div class="portfolio-outer-container" id="development-outer-container">
@@ -99,6 +100,15 @@
         document.getElementById('sound-design-search-button').addEventListener('click', function() {
             // Set your preset search term
             const presetTerm = "Sound Design"; // Replace this with your actual preset term
+            document.getElementById('searchInput').value = presetTerm;
+
+            // Call the search function
+            searchProjectsByType();
+        });
+
+        document.getElementById('custom-gpt-search-button').addEventListener('click', function() {
+            // Set your preset search term
+            const presetTerm = "Music"; // Replace this with your actual preset term
             document.getElementById('searchInput').value = presetTerm;
 
             // Call the search function
