@@ -14,15 +14,15 @@ a{
 
 
 .body-container{
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 5%;
 }
 
 .heading-container{
-	padding-top: 5%;
-	padding-bottom:5%;
+	/*padding-top: 5%;*/
+	/*padding-bottom:5%;*/
 }
 
 .contact-body-container{
@@ -183,11 +183,29 @@ a{
 	padding: 3%;
 }
 
-.portfolio-item{
+.portfolio-item {
 	border: solid #226a50;
 	border-radius: 17px;
 	padding: 3%;
 }
+
+.feature-container {
+	margin: 10%;
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+}
+
+
+
+#feature-title-image{
+	width: 100%;
+}
+
+.feature-title-image-container{
+	/*width: 480px;*/
+}
+
 .development-grid-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
@@ -423,6 +441,10 @@ button:hover {
 	#portfolio-container{
 		grid-template-columns: repeat(2, minmax(100px, 1fr));
 	}
+
+	.feature-container {
+		flex-direction: column-reverse;
+	}
 }
 
 /*Medium Devices (Small Laptops, 768px - 992px):*/
@@ -431,6 +453,10 @@ button:hover {
 
 	#portfolio-container{
 		grid-template-columns: repeat(1, minmax(100px, 1fr));
+	}
+
+	.feature-container {
+		flex-direction: column-reverse;
 	}
 
 	.project-image-description-container{
@@ -459,6 +485,10 @@ button:hover {
 /* Styles for screens between 600px and 768px wide */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
 
+	.feature-container {
+		flex-direction: column-reverse;
+	}
+
 
 	.project-image-description-container{
 		flex-direction:column;
@@ -485,6 +515,10 @@ button:hover {
 
 	#kyle-hinton-sub-title{
 		font-size: 1.2rem;
+	}
+
+	.search-container {
+		flex-direction: column;
 	}
 }
 
@@ -515,7 +549,9 @@ button:hover {
 		font-size: 1rem;
 	}
 
-
+	.search-container {
+		flex-direction: column;
+	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -535,4 +571,8 @@ button:hover {
 	.project-image-description-container{
 		flex-direction:column;
 	}
+	.search-container {
+		flex-direction: column;
+	}
+
 }
