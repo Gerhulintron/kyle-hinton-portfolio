@@ -89,8 +89,8 @@
     "project-title": "Solana Hyperdrive Hackathon",
     "project-type": "Development, Hackathon",
     "project-date": "September - November 2023",
-    "project-feature-photo-link": "",
-    "project-mediums": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/assets_ce0c7323a97a4d91bd0baa7490ec9139_c43c2a6ff2644287ae917672c0da049f.webp",
+    "project-mediums": "Python, Django, Javascript, React, Solana Blockchain",
     "project-presenter-producer": "Solana Foundation",
     "project-technology": "Python, Django, Javascript, React",
     "project-description": "Participated in the Solana Hyperdrive Hackathon to create the token gated video platform, Muulti.",
@@ -102,6 +102,31 @@
       {
         "link-name": "Muult - Token Gated Video Platform",
         "project-link": "https://muulti.xyz/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Gm Solana: An Introduction to Blockchain and NFTs for Artists and Creators",
+    "project-type": "Writing",
+    "project-date": "December 2022 - October 2023",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/gm-solana/GmSolanaCover1.PNG",
+    "project-mediums": "Writing, Design",
+    "project-presenter-producer": "Simulacrum Images",
+    "project-technology": "Solana Blockchain",
+    "project-description": "'GM Solana', is a 94 page educational resource about most of the block chain concepts a person would need to know to navigate the nft space, based on Solana.",
+    "project-links": [
+      {
+        "link-name": "Book Info - Simulacrum Images",
+        "project-link": "https://simulacrumimages.com/book-release-intro-to-blockchain-and-nfts-for-creators/"
+      },
+      {
+        "link-name": "Download it From Gumroad",
+        "project-link": "https://nortniluhreg.gumroad.com/l/gm-solana-intro-to-blockchain"
+      },
+      {
+        "link-name": "Mint an NFT with the .pdf linked in the metadata",
+        "project-link": "https://gm-solana-blockchain-intro.vercel.app/"
       }
     ]
   },
