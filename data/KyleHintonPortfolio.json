@@ -86,6 +86,27 @@
   },
 
   {
+    "project-title": "Solana Hyperdrive Hackathon",
+    "project-type": "Development, Hackathon",
+    "project-date": "September - November 2023",
+    "project-feature-photo-link": "",
+    "project-mediums": "",
+    "project-presenter-producer": "",
+    "project-technology": "Python, Django, Javascript, React",
+    "project-description": "Participated in the Solana Hyperdrive Hackathon to create the token gated video platform, Muulti.",
+    "project-links": [
+      {
+        "link-name": "Muulti - Solana Hyperdrive Directory",
+        "project-link": "https://hyperdrive.solana.com/projects/explore?nameQuery=muulti"
+      },
+      {
+        "link-name": "Muult - Token Gated Video Platform",
+        "project-link": "https://muulti.xyz/"
+      }
+    ]
+  },
+
+  {
     "project-title": "The Critical Thinking Detective",
     "project-type": "GPT",
     "project-date": "November 2023 - present",
