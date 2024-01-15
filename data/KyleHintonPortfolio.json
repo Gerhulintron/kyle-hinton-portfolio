@@ -174,11 +174,11 @@
   },
 
   {
-    "project-title": "March of the Bear Web Experience",
+    "project-title": "Children of the Bear Web Experience",
     "project-type": "Web Design",
-    "project-feature-photo-link": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/ChildrenOfTheBear.PNG",
     "project-mediums": "HTML, CSS, Javascript",
-    "project-presenter-producer": "Across the March Theatre",
+    "project-presenter-producer": "Written by Todd Houseman, Presented by Outside the March Theatre",
     "project-technology": "HTML, CSS, Javascript",
     "project-description": "A 4-track audio play with a a map that shows the story unravel with the character icons movement on the map. Listeners can only listen to one track at a time, in each direction of the map.",
     "project-links": [
