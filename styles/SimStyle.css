@@ -209,12 +209,12 @@ a{
 
 
 .project-item{
-	/*display: grid;*/
-	/*grid-template-rows: auto;*/
-	/*grid-template-columns: repeat(1, minmax(100px, 1fr));*/
-	/*align-self: start;*/
-	display:flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(1, minmax(100px, 1fr));
+	align-self: start;
+	/*display:flex;*/
+	/*flex-direction: column;*/
 	border: 2px solid; /* Border size */
 	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
 	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
