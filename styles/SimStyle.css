@@ -547,6 +547,10 @@ button:hover {
 		font-size: 1rem;
 	}
 
+	.feature-container {
+		flex-direction: column-reverse;
+	}
+
 	.search-container {
 		flex-direction: column;
 	}
@@ -572,6 +576,10 @@ button:hover {
 
 		.project-image-description-container {
 			flex-direction: column;
+		}
+
+		.feature-container {
+			flex-direction: column-reverse;
 		}
 
 		.search-container {
