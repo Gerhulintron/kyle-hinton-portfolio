@@ -371,13 +371,7 @@ ul.project-link-list li a:active {
 }
 
 
-.search-container {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding: 10px;
-	gap: 10px; /* Spacing between elements */
-}
+
 
 button {
 	padding: 5px 10px;
@@ -403,14 +397,16 @@ button {
 	outline: none;
 }
 
+
 .search-container {
 	display: flex;
 	justify-content: left;
 	align-items: center;
-
+	padding: 10px;
 	gap: 10px; /* Spacing between elements */
 	/*background-color: #c0c0c0; !* Gray background *!*/
 }
+
 
 button:hover {
 	background-color: #226a50;
@@ -453,6 +449,8 @@ button:hover {
 		flex-direction: column-reverse;
 	}
 
+
+
 	.project-image-description-container{
 		flex-direction:column;
 	}
@@ -469,9 +467,9 @@ button:hover {
 		flex-direction: column;
 	}
 
-	#searchInput, button {
-		width: 100%;
-	}
+	/*#searchInput, button {*/
+	/*	width: 100%;*/
+	/*}*/
 
 }
 
@@ -514,59 +512,71 @@ button:hover {
 	.search-container {
 		flex-direction: column;
 	}
+
+	/*#searchInput, button {*/
+	/*	width: 100%;*/
+	/*}*/
+
 }
 
 /*Extra Small Devices (Phones, <600px):*/
 /* Styles for screens less than 600px wide */
 @media only screen and (max-width: 600px) {
 
-	#portfolio-container{
+	#portfolio-container {
 		grid-template-columns: repeat(1, minmax(100px, 1fr));
 	}
-	.project-image-container{
-		width:360px;
+
+	.project-image-container {
+		width: 360px;
 	}
 
-	.project-feature-photo{
-		width:360px;
+	.project-feature-photo {
+		width: 360px;
 	}
 
-	.project-image-description-container{
-		flex-direction:column;
+	.project-image-description-container {
+		flex-direction: column;
 	}
 
-	#kyle-hinton-title{
+	#kyle-hinton-title {
 		font-size: 2rem;
 	}
 
-	#kyle-hinton-sub-title{
+	#kyle-hinton-sub-title {
 		font-size: 1rem;
 	}
 
 	.search-container {
 		flex-direction: column;
 	}
-}
 
-@media only screen and (max-width: 400px) {
-
-	#portfolio-container{
-		grid-template-columns: repeat(1, minmax(100px, 1fr));
-	}
-
-	.project-image-container{
-		width:240px;
-	}
-
-	.project-feature-photo{
-		width:240px;
-	}
-
-	.project-image-description-container{
-		flex-direction:column;
-	}
-	.search-container {
-		flex-direction: column;
-	}
+	/*#searchInput, button {*/
+	/*	width: 100%;*/
+	/*}*/
 
 }
+	@media only screen and (max-width: 400px) {
+
+		#portfolio-container {
+			grid-template-columns: repeat(1, minmax(100px, 1fr));
+		}
+
+		.project-image-container {
+			width: 240px;
+		}
+
+		.project-feature-photo {
+			width: 240px;
+		}
+
+		.project-image-description-container {
+			flex-direction: column;
+		}
+
+		.search-container {
+			flex-direction: column;
+		}
+
+
+	}
