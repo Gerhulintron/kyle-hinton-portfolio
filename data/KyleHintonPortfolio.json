@@ -51,7 +51,7 @@
     "project-mediums": "Web Development, Project Architecture",
     "project-presenter-producer": "Calgary Animated Objects Society",
     "project-technology": "Python, Django and HTML/CSS.",
-    "project-description": "Disinformation Warriors is an educational resource dedicated to teaching media literacy, critical thinking and animation.",
+    "project-description": "Disinformation Warriors is an educational resource dedicated to teaching media literacy, critical thinking and animation to youth and to people of all ages. I had honor of designing this project, developing the course and the website with some amazing people. The website was built using Django-Python and was deployed on Digital Ocean and it has been internationalized in French and English. The original course for this project was incredibly successful with over 80 people signing up. The animations created by the youth from the course were featured at Telus Spark, The Calgary Science Center, in 2021. An estimated 10, 500 visitors got to visit to work between July and October 2021.",
     "project-links": [
       {
         "link-name": "Disinformation Warriors",
