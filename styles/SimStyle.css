@@ -48,6 +48,9 @@ a{
 	font-size: 4rem;
 }
 
+#search-title{
+	font-size: 4rem;
+}
 
 .outer-contact-item{
 	display: flex;
@@ -504,6 +507,9 @@ button:hover {
 		flex-direction: column;
 	}
 
+	#search-title{
+		font-size: 3rem;
+	}
 	/*#searchInput, button {*/
 	/*	width: 100%;*/
 	/*}*/
@@ -553,6 +559,9 @@ button:hover {
 		font-size: 2.5rem;
 	}
 
+	#search-title{
+		font-size: 2.5rem;
+	}
 
 	.search-container {
 		flex-direction: column;
@@ -597,6 +606,10 @@ button:hover {
 		font-size: 2rem;
 	}
 
+	#search-title{
+		font-size: 2rem;
+	}
+
 	.services-body-container{
 		flex-direction: column;
 	}
@@ -635,7 +648,10 @@ button:hover {
 
 		.feature-container {
 			flex-direction: column-reverse;
+
 		}
+
+
 
 		.services-body-container{
 			flex-direction: column;
