@@ -39,9 +39,15 @@ a{
 	font-size: 4rem;
 }
 
-#kyle-hinton-sub-title{
+#kyle-hinton-sub-title {
 	font-size: 2rem;
 }
+
+
+#services-title{
+	font-size: 4rem;
+}
+
 
 .outer-contact-item{
 	display: flex;
@@ -472,7 +478,9 @@ button:hover {
 		flex-direction: column-reverse;
 	}
 
-
+	.services-body-container{
+		flex-direction: column;
+	}
 
 	.project-image-description-container{
 		flex-direction:column;
@@ -485,6 +493,12 @@ button:hover {
 	#kyle-hinton-sub-title{
 		font-size: 1.5rem;
 	}
+
+
+	#services-title{
+		font-size: 3rem;
+	}
+
 
 	.search-container {
 		flex-direction: column;
@@ -504,6 +518,9 @@ button:hover {
 		flex-direction: column-reverse;
 	}
 
+	.services-body-container{
+		flex-direction: column;
+	}
 
 	.project-image-description-container{
 		flex-direction:column;
@@ -531,6 +548,11 @@ button:hover {
 	#kyle-hinton-sub-title{
 		font-size: 1.2rem;
 	}
+
+	#services-title{
+		font-size: 2.5rem;
+	}
+
 
 	.search-container {
 		flex-direction: column;
@@ -570,6 +592,16 @@ button:hover {
 		font-size: 1rem;
 	}
 
+
+	#services-title{
+		font-size: 2rem;
+	}
+
+	.services-body-container{
+		flex-direction: column;
+	}
+
+
 	.feature-container {
 		flex-direction: column-reverse;
 	}
@@ -604,6 +636,11 @@ button:hover {
 		.feature-container {
 			flex-direction: column-reverse;
 		}
+
+		.services-body-container{
+			flex-direction: column;
+		}
+
 
 		.search-container {
 			flex-direction: column;
