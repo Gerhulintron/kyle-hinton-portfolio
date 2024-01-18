@@ -429,6 +429,10 @@ button {
 	outline: none;
 }
 
+.portfolio-outer-container{
+	margin-top:10%;
+}
+
 
 .search-container {
 	display: flex;
