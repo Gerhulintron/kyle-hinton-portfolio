@@ -74,6 +74,19 @@ a{
 	padding-left:5%;
 }
 
+.inner-contact-container{
+	display:flex;
+	flex-direction: row;
+}
+
+.calendly-container{
+	flex:1;
+}
+
+.contact-description-container{
+	flex:1;
+}
+
 .about-body-container{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));

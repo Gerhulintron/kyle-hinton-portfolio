@@ -16,10 +16,12 @@
 	top: 0; /* Align navbar to the top */
 	left: 0; /* Align navbar to the left */
 	z-index: 1000;
+	/*transition: background 0.5s ease-in-out;*/
 }
 
 .navbar:hover {
 	background: linear-gradient(to bottom right, #226a50, yellow);
+	/*transition: background 0.5s ease-in-out;*/
 }
 
 .nav-items-container {
