@@ -120,7 +120,7 @@ a{
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 20%;
-	margin-bottom: 5%;
+
 }
 
 .kyle-hinton-bio-container{
@@ -131,6 +131,7 @@ a{
 	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
 	background-color: #c0c0c0;
 	color: black;
+	transition: box-shadow 0.17s;
 
 
 }
@@ -314,7 +315,7 @@ a{
 	color: black;
 	/*border-radius: 17px;*/
 	/*padding: 3%;*/
-	transition: box-shadow 0.3s;
+	transition: box-shadow 0.17s;
 }
 
 .project-item:hover{
