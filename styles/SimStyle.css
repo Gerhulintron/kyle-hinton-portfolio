@@ -9,7 +9,7 @@ body{
 }
 
 a{
-	color: limegreen;
+	color: darkgreen;
 }
 
 
@@ -34,6 +34,11 @@ a{
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 5%;
+}
+
+.stats-container{
+	display:flex;
+	flex-direction: row;
 }
 
 #kyle-hinton-title{
