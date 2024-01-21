@@ -74,8 +74,11 @@ a{
 	font-size: 4rem;
 }
 
-#search-title{
+#search-title {
 	font-size: 4rem;
+	margin: 0; /* Adjust the margin as needed */
+	padding: 0; /* Adjust the padding as needed */
+	line-height: normal; /* Adjust the line-height as needed */
 }
 
 .outer-contact-item{
@@ -299,6 +302,17 @@ a{
 	grid-gap: 72px;
 }
 
+.outer-search-container{
+	border: 2px solid; /* Border size */
+	border-color: #ffffff #808080 #808080 #ffffff; /* 3D effect */
+	box-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+	background-color: #c0c0c0;
+	color: black;
+
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
 
 
 .project-item{
@@ -491,7 +505,7 @@ button {
 }
 
 .portfolio-outer-container{
-	margin-top:10%;
+	/*margin-top:10%;*/
 }
 
 

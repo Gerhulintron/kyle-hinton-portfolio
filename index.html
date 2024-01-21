@@ -95,21 +95,32 @@
 
 
 
-            <div class="portfolio-outer-container" id="development-outer-container">
-                <h1 id="search-title">Portfolio</h1>
-                <div class="search-container" id="search-container">
-                    <input type="text" id="searchInput" placeholder="Search projects...">
-                    <button onclick="searchProjects()">Search</button>
-                    <button id="development-search-button">Development</button>
-                    <button id="web-design-search-button">Web Design</button>
-                    <button id="creative-search-button">Creative</button>
-                    <button id="sound-design-search-button">Sound Design</button>
-                    <button id="music-search-button">Music</button>
-                    <button id="custom-gpt-search-button">Custom GPT</button>
+
+
+
+                <div class="portfolio-outer-container" id="development-outer-container">
+
+
+                    <div class="outer-search-container">
+                        <div class="bio-title-container">
+                            <h1 id="search-title">Portfolio Search</h1>
+                        </div>
+                        <div class="search-container" id="search-container">
+                            <input type="text" id="searchInput" placeholder="Search projects...">
+                            <button onclick="searchProjects()">Search</button>
+                            <button id="development-search-button">Development</button>
+                            <button id="web-design-search-button">Web Design</button>
+                            <button id="creative-search-button">Creative</button>
+                            <button id="sound-design-search-button">Sound Design</button>
+                            <button id="music-search-button">Music</button>
+                            <button id="custom-gpt-search-button">Custom GPT</button>
+                        </div>
+                    </div>
+
+                    <div id="portfolio-container">
+                    </div>
                 </div>
-                <div id="portfolio-container">
-                </div>
-            </div>
+
 <!--            <div class="web-design-outer-container" id="web-design-outer-container">-->
 <!--                <h1>Web Design</h1>-->
 <!--                <div id="web-design-grid-container">-->
@@ -121,8 +132,8 @@
 <!--                <div id="creative-grid-container">-->
 <!--                </div>-->
 <!--            </div>-->
-        </div>
 
+        </div>
     <script>
 
         posthog.capture('Home Page Visited');
