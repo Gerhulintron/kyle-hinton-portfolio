@@ -75,10 +75,11 @@ a{
 }
 
 #search-title {
-	font-size: 4rem;
+	/*font-size: 4rem;*/
 	margin: 0; /* Adjust the margin as needed */
 	padding: 0; /* Adjust the padding as needed */
 	line-height: normal; /* Adjust the line-height as needed */
+	padding-left: 12px;
 }
 
 .outer-contact-item{
@@ -313,7 +314,18 @@ a{
 	margin-bottom: 24px;
 }
 
+.outer-search-container:hover{
+	border-radius: 20px;
+	box-shadow: 3px 5px 2px gold;
+	background: #a8d5ba;
+}
 
+
+.outer-search-container:hover  .search-title-container{
+	border-radius: 20px;
+	background: #226a50;
+	margin: 3px;
+}
 
 .project-item{
 	display: grid;
@@ -338,7 +350,11 @@ a{
 	background: #a8d5ba;
 }
 
-
+.search-title-container:hover{
+	border-radius: 20px;
+	background: #226a50;
+	margin: 3px;
+}
 
 .project-item:hover  .project-title-container{
 	border-radius: 20px;
@@ -359,6 +375,12 @@ a{
 }
 
 .bio-title-container{
+	background: #000080;
+	margin: 3px;
+	color:white;
+}
+
+.search-title-container{
 	background: #000080;
 	margin: 3px;
 	color:white;
