@@ -581,6 +581,10 @@ button:hover {
 		display:flex;
 		flex-direction: row;
 	}
+
+	.search-container {
+		flex-direction: column;
+	}
 }
 
 /*Medium Devices (Small Laptops, 768px - 992px):*/
