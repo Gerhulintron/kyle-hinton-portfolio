@@ -46,7 +46,7 @@ a{
 }
 
 .bio-image-container{
-	width: 720px;
+	width: 360px;
 }
 
 #about-image{
@@ -120,7 +120,7 @@ a{
 	display: grid;
 	grid-template-columns: repeat(1, minmax(100px, 1fr));
 	grid-gap: 5%;
-	padding-top: 15%;
+	padding-top: 10%;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 20%;
@@ -756,6 +756,14 @@ button:hover {
 	/*#searchInput, button {*/
 	/*	width: 100%;*/
 	/*}*/
+
+	.bio-image-container{
+		width: 240px;
+	}
+
+	#about-image{
+		width: 240px;
+	}
 
 }
 	@media only screen and (max-width: 400px) {
