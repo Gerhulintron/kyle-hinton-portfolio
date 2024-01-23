@@ -557,7 +557,7 @@ button:hover {
 	height: 2rem; /* Adjust as needed */
 	background-color: #f0f0f0; /* Background color of the container */
 	border: 1px solid #ddd; /* Optional border */
-	box-shadow: 0px 0px 10px #ccc; /* Optional shadow */
+	/*box-shadow: 0px 0px 10px #ccc; !* Optional shadow *!*/
 	/*padding-left: 3%;*/
 	/*padding-right: 3%;*/
 }
@@ -566,7 +566,7 @@ button:hover {
 	position: absolute;
 	white-space: nowrap;
 	display: flex;
-	animation: scroll 25s linear infinite; /* Adjust duration as needed */
+	animation: scroll 21s linear infinite; /* Adjust duration as needed */
 }
 
 .scrolling-text span {
