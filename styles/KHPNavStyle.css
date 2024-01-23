@@ -100,9 +100,8 @@
 .nav-item:hover {
 
 	/*border: 2px inset #ffffff;*/
-
-
 }
+
 /* Style for navbar item links on hover */
 .nav-item a:hover {
 	background-color: #226a50;
@@ -178,19 +177,30 @@
 		flex-direction: column; /* Stack items vertically */
 		align-items: stretch;
 		height: fit-content;
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
 	}
 
 	.nav-items-container {
 		flex-direction: column;
 		align-items: flex-start;
 		width: 100%;
+		border:none;
 	}
+
+
 
 	.nav-item, .dropdown {
 		display: block; /* Stack these items vertically */
 		width: 100%; /* Full width for each nav and social item */
 		text-align: left; /* Align text to the left */
+		border:none;
 	}
+
+	.social-items-container{
+		background-color: #c0c0c0;
+}
 
 
 	.social-item img {
