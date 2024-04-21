@@ -94,6 +94,24 @@
   },
 
   {
+    "project-title": "Pog Swap",
+    "project-type": "Development",
+    "project-date": "February - April 2024",
+    "project-feature-photo-link": "",
+    "project-mediums": "Javascript, Firebase, Solana Blockchain",
+    "project-presenter-producer": "Pog Digital",
+    "project-technology": "Javascript, Firebase, Solana Blockchain",
+    "project-description": "Users sent the Solana SPL Pogr token to an address. They also recorded a Theta wallet address. When the transaction got sent, all the data about the transaction was saved to a database. Users who sent the token would receive an allotment of POG Theta token.",
+    "project-links": [
+      {
+        "link-name": "",
+        "project-link": ""
+      }
+    ]
+  },
+
+
+  {
     "project-title": "Solana Hyperdrive Hackathon",
     "project-type": "Development, Hackathon",
     "project-date": "September - November 2023",
