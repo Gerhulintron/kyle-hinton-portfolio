@@ -25,6 +25,9 @@
   },
 
 
+
+
+
   {
     "project-title": "Muulti - Token Gated Video Platform",
     "project-type": "Development",
@@ -67,6 +70,24 @@
 
     ]
   },
+
+  {
+    "project-title": "Mimesis Castle",
+    "project-type": "Web3, Creative",
+    "project-date": "May 2024 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/mimesis-castle/MimesisCastlePFP.png",
+    "project-mediums": "Performance, Puppetry, Music, Art, Multi-disciplined creation",
+    "project-presenter-producer": "DRiP, Simulacrum Images",
+    "project-technology": "",
+    "project-description": "\uD83C\uDFAD Welcome to Mimesis Castle, a web3 digital collectible variety show curated by Simulations.\n\n\uD83C\uDF1F Imagine stepping into a cabaret, but instead of leaving, you collect a piece of the show! Collect a variety of video scenes, music tracks, illustrations, graphics and more every week!\n\n\uD83D\uDCDC Main Collection: Experience short analogue animations, akin to puppet shows, featuring a variety of approaches, scenes and stories. These are all built into various kinds of found objects like suitcases, computer cases and other kinds of space that can be transformed into a new miniature world.\n\n\uD83C\uDFA8 Special Curations: Features that present exceptional works from various artists across different mediums to bring the variety to the show.\n\nAgain, thank you so much!",
+    "project-links": [
+      {
+        "link-name": "Mimesis Castle on DRiP",
+        "project-link": "https://drip.haus/mimesiscastle"
+      }
+    ]
+  },
+
 
   {
     "project-title": "Lilly in the Lab",
