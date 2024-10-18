@@ -154,6 +154,27 @@
   },
 
   {
+    "project-title": "DAM Residency",
+    "project-type": "Glitch Art, Web3",
+    "project-date": "September 2024 - October 2024",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/dam-residency/DAMPoster.png",
+    "project-mediums": "Glitch Photography, Web3, NFTS",
+    "project-presenter-producer": "DAM Magazine",
+    "project-technology": "Solana Blockchain",
+    "project-description": "At the DAM Residency, I got to explore the creation of new works alongside a bouquet of other incredible artists. Our prompt was 'Brainwaves' and our works were presented at the JRNY Gallery in Las Vegas in October 2024.",
+    "project-links": [
+      {
+        "link-name": "DAM Residency",
+        "project-link": "https://damzine.xyz/"
+      },
+      {
+        "link-name": "Fractured Foundation - Artwork on Exchange Art",
+        "project-link": "https://exchange.art/single/8AJc3Sih4suEh4iafcD89LsM9BuX9Js2EU5dBHRD97GQ"
+      }
+    ]
+  },
+
+  {
     "project-title": "Gm Solana: An Introduction to Blockchain and NFTs for Artists and Creators",
     "project-type": "Writing",
     "project-date": "December 2022 - October 2023",
