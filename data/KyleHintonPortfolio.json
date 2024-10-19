@@ -175,6 +175,31 @@
   },
 
   {
+    "project-title": "Guides Arcade - Bunny Runner - RADAR HACKATHON",
+    "project-type": "Game Development, Web3",
+    "project-date": "September 2024 - Ongoing",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/guides/BunnyRunnerImage.PNG",
+    "project-mediums": "Game Development",
+    "project-presenter-producer": "Guides",
+    "project-technology": "Unity, C#, Solana",
+    "project-description": "Harnessing the creative talent within The Burrow, facilitated by Wetiko, we created an infinite runner game featuring bunnies from the project, Guides. Artwork by Imrie, Sound by Silo, Developed by Kyle Hinton, Directed by Wetiko, Tested by Fergolieana. ",
+    "project-links": [
+      {
+        "link-name": "Play Bunny Runner Here:",
+        "project-link": "https://bunnyrunner.weti.co/"
+      },
+      {
+        "link-name": "Solana - Radar Hackathon",
+        "project-link": "https://arena.colosseum.org/projects/explore/the-guides-arcade"
+      },
+      {
+        "link-name": "Wetiko Work",
+        "project-link": "https://www.wetiko.work/"
+      }
+    ]
+  },
+
+  {
     "project-title": "Gm Solana: An Introduction to Blockchain and NFTs for Artists and Creators",
     "project-type": "Writing",
     "project-date": "December 2022 - October 2023",
