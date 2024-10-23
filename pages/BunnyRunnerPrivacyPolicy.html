@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Kyle Hinton Projects and Collaborations</title>
+    <link rel="stylesheet" href="../styles/SimStyle.css">
+    <link rel="stylesheet" href="../styles/KHPNavStyle.css"/>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_APZmdcrKs2dPdVMvE8lnuirnHhKTx0ghEamrwHfeOV0',{api_host:'https://app.posthog.com'})
+    </script>
+</head>
+<body>
+<div id="navbar-container"></div>
+<div class="services-body-container">
+    <h1>Bunny Runner Privacy Policy</h1>
+    <p>
+        Effective Date: [Insert Date]
+
+        1. Introduction
+        Welcome to Bunny Runner, a game developed by Simulations, with artwork by Imrie, sound by SiLo, and directed by Wetiko. Bunny Runner is part of The Guides Arcade project. This privacy policy outlines how we handle any data collected while you use the Bunny Runner game and associated services.
+
+        2. Optional Data Collection: Player Alias for Scoreboard
+        While Bunny Runner does not collect personal information by default, players have the option to submit an alias (a non-identifiable name or nickname) to be displayed on the in-game scoreboard. This alias is entirely optional, and no other personal information will be collected alongside it.
+
+        3. No Data Sharing or Selling
+        We do not sell, trade, or otherwise share any data with third parties. The alias entered for the scoreboard is used solely for in-game purposes and is not shared or used outside of the game environment.
+
+        4. Analytical Information from Google Play
+        In addition to the optional alias for the scoreboard, we may receive aggregated and anonymous analytical data from the Google Play Store. This includes:
+
+        Number of downloads.
+        In-app performance metrics.
+        Crash reports.
+        Usage statistics (such as how often the app is used and on what types of devices).
+        This information helps us improve the game and optimize the player experience. All such data is anonymous and is not tied to any specific user.
+
+        5. Data Security
+        We take the protection of any data seriously. The optional alias for the scoreboard is stored securely, and the analytics data received from Google Play is in compliance with Google’s privacy standards. No personal information is collected or stored by Bunny Runner.
+
+        6. Player Rights
+        Since no personal data is collected, players are not required to submit any information. If you choose to submit an alias for the scoreboard, you may request its removal by contacting us.
+
+        7. Changes to This Policy
+        We may update this privacy policy periodically to reflect changes in our practices or operational, legal, or regulatory requirements. Any updates will be posted here, and your continued use of Bunny Runner following such updates constitutes your acceptance of the changes.
+
+        8. Contact Us
+        If you have any questions or concerns about this privacy policy or how your data is handled, please contact us at kyle-hinton@outlook.com.
+
+    </p>
+
+</div>
+<script>
+    fetch("KyleHintonProjectsNavbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+        });
+
+    posthog.capture('About Page Visited');
+</script>
+
+</body>
+</html>
