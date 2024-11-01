@@ -199,7 +199,17 @@
       {
         "link-name": "Privacy Policy",
         "project-link": "https://www.kylehintonprojects.com/pages/BunnyRunnerPrivacyPolicy.html"
+      },
+      {
+        "link-name": "Bunny Runner for Android",
+        "project-link": "https://play.google.com/store/apps/details?id=com.Guides.BunnyRunner&pcampaignid=web_share"
+      },
+      {
+        "link-name": "Bunny Runner for Apple",
+        "project-link": "https://apps.apple.com/ca/app/bunny-runner/id6737518207"
       }
+
+
     ]
   },
 
