@@ -1,5 +1,18 @@
+:root {
+	--windows-95-blue: #0078D4;
+	--windows-95-green: #00D455;
+	--emerald-green: #00B140;
+	--lime-green: #32CD32;
+	--flat-ui-green: #2ECC71;
+	--classic-green: #008000;
+	--neon-green: #00FF00;
+
+	--night-blue: #0f1e3d;
+}
+
+
 body{
-	background-image: linear-gradient(#0f1e3d 70%, forestgreen);
+	background-image: linear-gradient(var(--night-blue) 70%, forestgreen);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: white;
@@ -141,10 +154,10 @@ a{
 }
 
 .kyle-hinton-bio-container:hover{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	box-shadow: 30px 35px 2px gold;
 	background: #a8d5ba;
-
+	/*background: var(--windows-95-green);*/
 }
 
 .project-title{
@@ -233,6 +246,7 @@ a{
 
 .portfolio-item {
 	border: solid #226a50;
+
 	border-radius: 17px;
 	padding: 3%;
 }
@@ -315,15 +329,17 @@ a{
 }
 
 .outer-search-container:hover{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	box-shadow: 3px 5px 2px gold;
-	background: #a8d5ba;
+	/*background: #a8d5ba;*/
+	background:	var(--windows-95-green);
 }
 
 
 .outer-search-container:hover  .search-title-container{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	background: #226a50;
+	/*background:	var(--windows-95-green);*/
 	margin: 3px;
 }
 
@@ -345,19 +361,19 @@ a{
 }
 
 .project-item:hover{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	box-shadow: 30px 35px 2px gold;
-	background: #a8d5ba;
+	background: var(--windows-95-green);
 }
 
 .search-title-container:hover{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	background: #226a50;
 	margin: 3px;
 }
 
 .project-item:hover  .project-title-container{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	background: #226a50;
 	margin: 3px;
 }
@@ -393,7 +409,7 @@ a{
 }
 
 .kyle-hinton-bio-container:hover  .bio-title-container{
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	background: #226a50;
 	margin: 3px;
 }

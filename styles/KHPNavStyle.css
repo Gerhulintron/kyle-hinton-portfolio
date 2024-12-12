@@ -1,4 +1,15 @@
 /* Style for the main navbar container */
+
+:root {
+	--windows-95-blue: #0078D4;
+	--windows-95-green: #00D455;
+	--emerald-green: #00B140;
+	--lime-green: #32CD32;
+	--flat-ui-green: #2ECC71;
+	--classic-green: #008000;
+	--neon-green: #00FF00;
+}
+
 .navbar {
 	display: flex;
 	align-items: center;
@@ -20,7 +31,8 @@
 }
 
 .navbar:hover {
-	background: linear-gradient(to bottom right, #226a50, yellow);
+	/*background: linear-gradient(to bottom right, #226a50, yellow);*/
+	background: #00D478;
 	/*transition: background 0.5s ease-in-out;*/
 }
 
