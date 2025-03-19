@@ -189,7 +189,7 @@
 		flex-direction: column; /* Stack items vertically */
 		align-items: stretch;
 		height: fit-content;
-		background-color: transparent;
+		background-color: #c0c0c0;
 		border: none;
 		box-shadow: none;
 	}
