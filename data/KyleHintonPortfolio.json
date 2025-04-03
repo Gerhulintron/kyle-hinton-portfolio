@@ -179,15 +179,36 @@
     "project-title": "Pog Swap",
     "project-type": "Development",
     "project-date": "January - April 2024",
-    "project-feature-photo-link": "",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/pog-projects/pog_logo.png",
     "project-mediums": "Javascript, Firebase, Solana Blockchain",
     "project-presenter-producer": "Pog Digital",
     "project-technology": "Javascript, Firebase, Solana Blockchain",
     "project-description": "Users sent the Solana SPL Pogr token to an address. They also recorded a Theta wallet address. When the transaction got sent, all the data about the transaction was saved to a database. Users who sent the token would receive an allotment of POG Theta token.",
     "project-links": [
       {
-        "link-name": "",
-        "project-link": ""
+        "link-name": "Pog Digital",
+        "project-link": "https://www.pogdigital.com/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Pog Magic Eden - Token Burn Shipping",
+    "project-type": "Development",
+    "project-date": "January - April 2024",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/pog-projects/pog_logo.png",
+    "project-mediums": "Javascript, Firebase, Solana Blockchain",
+    "project-presenter-producer": "Pog Digital",
+    "project-technology": "Javascript, Firebase, Solana Blockchain",
+    "project-description": "Users can burn their Solana Magic Eden Pog Slammers, enter their shipping information and get a golden slammer shipped to them.",
+    "project-links": [
+      {
+        "link-name": "Magic Eden Pog Token Burn Shipping",
+        "project-link": "https://gold.pogdigital.com/"
+      },
+      {
+        "link-name": "Pog Digital",
+        "project-link": "https://www.pogdigital.com/"
       }
     ]
   },
