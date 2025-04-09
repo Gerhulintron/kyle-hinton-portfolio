@@ -137,6 +137,26 @@
   },
 
   {
+    "project-title": "God of Thunder",
+    "project-type": "Game Development",
+    "project-date": "September 2019 - Ongoing",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/god-of-thunder/GodOfThunder3.png",
+    "project-mediums": "Game Development",
+    "project-presenter-producer": "Little Odd Things",
+    "project-technology": "Unity, C#",
+    "project-description": "You are the mischievous God of Thunder and you are here to absorb the tears of the corpos.",
+    "project-links": [
+
+      {
+        "link-name": "Privacy Policy",
+        "project-link": "https://www.kylehintonprojects.com/pages/GodOfThunderPrivacyPolicy.html"
+      }
+
+    ]
+  },
+
+
+  {
     "project-title": "Guides Arcade - Bunny Runner - RADAR HACKATHON",
     "project-type": "Game Development, Web3",
     "project-date": "September 2024 - Ongoing",
