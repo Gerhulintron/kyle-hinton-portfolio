@@ -26,6 +26,26 @@
 
 
 
+  {
+    "project-title": "Community Energy Exchange - TD Incubator at Arts Commons",
+    "project-type": "Creative, Audio/Visual, Film, Stop Motion",
+    "project-date": "April-July 2025",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/community-energy-exchange/TheSillyWaysWeUseStoredCommunityEnergy.PNG",
+    "project-mediums": "Stop Motion, Audio/Visual",
+    "project-presenter-producer": "Arts Commons, TD Bank",
+    "project-technology": "Stop Motion Studio on Android and Apple",
+    "project-description": "Community Energy Exchange, Explores the material dimension of the global community through a chaotic, absurdist stop-motion collage. This work investigates the evolving transfer of value and the invisible forces that shape community energy. What creates community energy? Is it the work and labor we put in? Is it in the things we create? Is it a belief? Is it in the act of exchange? How? Is it all a game? Does exchange create community? \nMaybe community energy isn’t something we trade, but something we co-create—an evolving non-fiction that holds us together through our labor, our creations, our systems and collaborations. Featuring multiple new and old audio/visual creations by Kyle Hinton aka Simulations.",
+    "project-links": [
+      {
+        "link-name": "Community Energy Exchange video on Instagram",
+        "project-link": "https://www.instagram.com/reel/DIdkCdzz7sU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      },
+      {
+        "link-name": "Arts Commons Connect",
+        "project-link": "https://www.artscommons.ca/learn-and-engage/connects/kyle-hinton"
+      }
+    ]
+  },
 
 
   {
@@ -33,14 +53,31 @@
     "project-type": "Development",
     "project-date": "October 2023 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/muulti_logo_one.png",
-    "project-mediums": "Full Stack Development",
+    "project-mediums": "Full Stack Development, Blockchain",
     "project-presenter-producer": "",
     "project-technology": "Python, Django, Django Rest Framework, and React JS, Solana",
     "project-description": "Muulti is a video platform where content creators can use any NFT from any collection in the Solana ecosystem to token gate their video content.",
     "project-links": [
       {
-        "link-name": "Muulti",
+        "link-name": "Muulti - Token Gated Media Content",
         "project-link": "https://muulti.xyz/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "HOM3",
+    "project-type": "Development, Hackathon, Web3",
+    "project-date": "April - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/hackathons/photo_2025-05-12_20-56-38.png",
+    "project-mediums": "Full Stack Development, Blockchain",
+    "project-presenter-producer": "",
+    "project-technology": "Javascript, React, Firebase, Solana Blockchain",
+    "project-description": "A platform that let's users create a home page / link tree that features token gated content and can integrate with various NFT marketplaces through various methods that the user can customize with blockchain technology and features.",
+    "project-links": [
+      {
+        "link-name": "HOM3 - Share your token gated content on the web.",
+        "project-link": "https://hom3gg.web.app/"
       }
     ]
   },
@@ -73,7 +110,7 @@
 
   {
     "project-title": "Mimesis Castle",
-    "project-type": "Web3, Creative",
+    "project-type": "Web3, Creative, NFT",
     "project-date": "May 2024 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/mimesis-castle/MimesisCastlePFP.png",
     "project-mediums": "Performance, Puppetry, Music, Art, Multi-disciplined creation",
@@ -91,7 +128,7 @@
 
   {
     "project-title": "Lilly in the Lab",
-    "project-type": "Development",
+    "project-type": "Development, Gaming",
     "project-date": "2018 - Present",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/Lilly_appicon_1024x1024.png",
     "project-mediums": "Game Development",
@@ -116,8 +153,30 @@
 
 
   {
+    "project-title": "Solana Breakout Hackathon",
+    "project-type": "Development, Hackathon, Web3",
+    "project-date": "April - June 2025",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/hackathons/breakout-1200x675px@2x.png",
+    "project-mediums": "Javascript, React, Firebase, Solana Blockchain",
+    "project-presenter-producer": "Solana Foundation, Colosseum",
+    "project-technology": "Javascript, React, Firebase, Solana Blockchain",
+    "project-description": "Participated in the Solana Hyperdrive Hackathon to create a platform that let's users create a home page / link tree that can feature token gated content and can integrate with various NFT marketplaces through various methods that the user can customize with blockchain technology and features.",
+    "project-links": [
+      {
+        "link-name": "HOM3 - Solana Breakout Hackathon",
+        "project-link": "https://arena.colosseum.org/profiles/Simulations"
+      },
+      {
+        "link-name": "HOM3 - Share your token gated content on the web.",
+        "project-link": "https://hom3gg.web.app/"
+      }
+    ]
+  },
+
+
+  {
     "project-title": "DAM Residency",
-    "project-type": "Glitch Art, Web3",
+    "project-type": "Glitch Art, Web3, Creative",
     "project-date": "September 2024 - October 2024",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/dam-residency/DAMPoster.png",
     "project-mediums": "Glitch Photography, Web3, NFTS",
@@ -138,7 +197,7 @@
 
   {
     "project-title": "Mischief Thunder",
-    "project-type": "Game Development",
+    "project-type": "Game Development, Development",
     "project-date": "September 2019 - Ongoing",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/god-of-thunder/GodOfThunder3.png",
     "project-mediums": "Game Development",
@@ -162,7 +221,7 @@
 
   {
     "project-title": "Guides Arcade - Bunny Runner - RADAR HACKATHON",
-    "project-type": "Game Development, Web3",
+    "project-type": "Game Development, Web3, Gaming, Development",
     "project-date": "September 2024 - Ongoing",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/guides/BunnyRunnerImage.PNG",
     "project-mediums": "Game Development",
@@ -217,14 +276,14 @@
   },
 
   {
-    "project-title": "Pog Magic Eden - Token Burn Shipping",
+    "project-title": "Pog - Token Burn Shipping",
     "project-type": "Development",
     "project-date": "January - April 2024",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/pog-projects/magic_eden_pog.png",
     "project-mediums": "Javascript, Firebase, Solana Blockchain",
     "project-presenter-producer": "Pog Digital",
     "project-technology": "Javascript, Firebase, Solana Blockchain",
-    "project-description": "Users can burn their Solana Magic Eden Pog Slammers, enter their shipping information and get a golden slammer shipped to them.",
+    "project-description": "Users can burn their Solana Magic Eden Pog Slammers, enter their shipping information and get a golden slammer shipped to them. Used on the Magic Eden Slammer Collection, Trev El Viz Collection and the BTC Standard Collection.",
     "project-links": [
       {
         "link-name": "Magic Eden Pog Token Burn Shipping",
