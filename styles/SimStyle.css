@@ -3,7 +3,10 @@
 	--windows-95-green: #00D455;
 	--emerald-green: #00B140;
 	--lime-green: #32CD32;
-	--flat-ui-green: #2ECC71;
+	/*--flat-ui-green: #2ECC71;*	*/
+	--flat-ui-green: #01A7A8;
+
+	/*--flat-ui-green: #02A842;*/
 	--classic-green: #008000;
 	--neon-green: #00FF00;
 
@@ -155,7 +158,8 @@ a{
 
 .kyle-hinton-bio-container:hover{
 	/*border-radius: 20px;*/
-	box-shadow: 30px 35px 2px gold;
+	/*box-shadow: 30px 35px 2px gold;*/
+	box-shadow: 30px 35px 2px black;
 	background: #a8d5ba;
 	/*background: var(--windows-95-green);*/
 }
@@ -330,7 +334,8 @@ a{
 
 .outer-search-container:hover{
 	/*border-radius: 20px;*/
-	box-shadow: 3px 5px 2px gold;
+	/*box-shadow: 3px 5px 2px gold;*/
+	box-shadow: black;
 	/*background: #a8d5ba;*/
 	background:	var(--windows-95-green);
 }
@@ -362,8 +367,9 @@ a{
 
 .project-item:hover{
 	/*border-radius: 20px;*/
-	box-shadow: 30px 35px 2px gold;
-	background: var(--windows-95-green);
+	/*box-shadow: 30px 35px 2px gold;*/
+	box-shadow: 30px 35px 2px black;
+	background: var(--flat-ui-green);
 }
 
 .search-title-container:hover{
@@ -374,7 +380,8 @@ a{
 
 .project-item:hover  .project-title-container{
 	/*border-radius: 20px;*/
-	background: #226a50;
+	/*background: #226a50;*/
+	background: black;
 	margin: 3px;
 }
 
