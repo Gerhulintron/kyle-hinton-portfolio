@@ -65,23 +65,6 @@
     ]
   },
 
-  {
-    "project-title": "HOM3",
-    "project-type": "Development, Hackathon, Web3",
-    "project-date": "April - Present",
-    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/hackathons/photo_2025-05-12_20-56-38.png",
-    "project-mediums": "Full Stack Development, Blockchain",
-    "project-presenter-producer": "",
-    "project-technology": "Javascript, React, Firebase, Solana Blockchain",
-    "project-description": "A platform that let's users create a home page / link tree that features token gated content and can integrate with various NFT marketplaces through various methods that the user can customize with blockchain technology and features.",
-    "project-links": [
-      {
-        "link-name": "HOM3 - Share your token gated content on the web.",
-        "project-link": "https://hom3gg.web.app/"
-      }
-    ]
-  },
-
 
   {
     "project-title": "Disinformation Warriors",
