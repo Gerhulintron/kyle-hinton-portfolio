@@ -1,24 +1,21 @@
+<div>
+
 
 <div class="navbar">
     <!-- Left-side nav items -->
-    <div class="nav-items-container">
-        <div class="nav-item"><a href="/index.html"><strong>Home</strong></a></div>
-        <div class="nav-item"><a href="/pages/About.html"><strong>About</strong></a></div>
-        <div class="nav-item"><a href="/pages/Contact.html"><strong>Contact</strong></a></div>
-        <div class="nav-item"><a href="/index.html"><strong>Portfolio</strong></a></div>
-        <div class="nav-item"><a href="/pages/Services.html"><strong>Services</strong></a></div>
+    <button class="hamburger" onclick="toggleMobileMenu()">☰</button>
+
+    <div class="nav-items-container" id="mobileMenu">
+        <div class="nav-item"><a href="./index.html" data-rel="home"><strong>Home</strong></a></div>
+        <div class="nav-item"><a href="../pages/About.html" data-rel="about"><strong>About</strong></a></div>
+        <div class="nav-item"><a href="../pages/Contact.html" data-rel="contact"><strong>Contact</strong></a></div>
+        <div class="nav-item"><a href="./index.html" data-rel="portfolio"><strong>Portfolio</strong></a></div>
+        <div class="nav-item"><a href="../pages/Services.html" data-rel="services"><strong>Services</strong></a></div>
+
+
         <div class="nav-item"><a href="https://thesimulacrum.xyz/" target="_blank" rel="noopener noreferrer"><strong>The Simulacrum</strong></a></div>
         <div class="nav-item"><a href="https://suitcasetheatrearcade.com/" target="_blank" rel="noopener noreferrer"><strong>The Suitcase Theatre Arcade</strong></a></div>
         <div class="nav-item"><a href="https://simulations.bandcamp.com/" target="_blank" rel="noopener noreferrer"><strong>Simulations Music</strong></a></div>
-
-<!--    <div class="dropdown">-->
-<!--        <div class="nav-item"><a class="dropbtn"><strong>Portfolio</strong></a></div>-->
-<!--        <div class="dropdown-content">-->
-<!--            <div class="nav-item"><a href="/index.html#development-outer-container"><strong>Development</strong></a></div>-->
-<!--            <div class="nav-item"><a href="/index.html#web-design-outer-container"><strong>Web Design</strong></a></div>-->
-<!--            <div class="nav-item"><a href="/index.html#creative-outer-container"><strong>Creative</strong></a></div>-->
-<!--        </div>-->
-<!--    </div>-->
     </div>
 
     <!-- Right-side social media icons -->
@@ -28,28 +25,67 @@
         <div class="social-item"><a class="social-image" href="https://www.linkedin.com/in/kyle-hinton-236ba0165/" target="_blank" rel="noopener noreferrer"><img src="https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/icons/linkedin_pixel.png" alt="LinkedIn"/></a></div>
         <div class="social-item"><a class="social-image" href="https://linktr.ee/psymulations" target="_blank" rel="noopener noreferrer"><img src="https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/nft-art/unnamed%20(4).png" alt="Link Tree"/></a></div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log("DOMContentLoaded event triggered"); // Test log
+</div>
 
-            var navbar = document.querySelector('.navbar');
-            var spotlight = document.createElement('div');
-            spotlight.classList.add('spotlight');
-            navbar.appendChild(spotlight);
+<script>
+    fetch("pages/KyleHintonProjectsNavbar.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
 
-            navbar.addEventListener('mousemove', function(e) {
-                spotlight.style.display = 'block';
-                var x = e.clientX - navbar.getBoundingClientRect().left;
-                var y = e.clientY - navbar.getBoundingClientRect().top;
-                spotlight.style.transform = `translate(${x}px, ${y}px)`;
+            const isInPagesDir = window.location.pathname.includes('/pages/');
+            const prefix = isInPagesDir ? './' : 'pages/';
+            const homePath = isInPagesDir ? '../index.html' : 'index.html';
+
+            document.querySelectorAll('[data-rel]').forEach(link => {
+                const rel = link.getAttribute('data-rel');
+
+                // Only override if it would otherwise break
+                if (rel === 'home' || rel === 'portfolio') {
+                    link.setAttribute('href', homePath);
+                } else if (rel) {
+                    link.setAttribute('href', `${prefix}${capitalize(rel)}.html`);
+                }
             });
 
-            navbar.addEventListener('mouseleave', function() {
-                spotlight.style.display = 'none';
-            });
+            function capitalize(str) {
+                return str.charAt(0).toUpperCase() + str.slice(1);
+            }
+
+            // Spotlight + Hamburger setup (unchanged)
+            const navbar = document.querySelector('.navbar');
+            if (navbar) {
+                const spotlight = document.createElement('div');
+                spotlight.classList.add('spotlight');
+                navbar.appendChild(spotlight);
+
+                navbar.addEventListener('mousemove', function (e) {
+                    spotlight.style.display = 'block';
+                    const x = e.clientX - navbar.getBoundingClientRect().left;
+                    const y = e.clientY - navbar.getBoundingClientRect().top;
+                    spotlight.style.transform = `translate(${x}px, ${y}px)`;
+                });
+
+                navbar.addEventListener('mouseleave', function () {
+                    spotlight.style.display = 'none';
+                });
+            }
+
+            window.toggleMobileMenu = function () {
+                const menu = document.getElementById("mobileMenu");
+                if (menu) {
+                    menu.classList.toggle("show");
+                }
+            };
         });
 
-    </script>
 
+
+</script>
 
 </div>
+
+
+
+
+

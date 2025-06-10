@@ -341,6 +341,37 @@
             return portfolioHTML;
         }
 
+        fetch("pages/KyleHintonProjectsNavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+
+                // ✅ Make toggle function global
+                window.toggleMobileMenu = function () {
+                    const menu = document.getElementById("mobileMenu");
+                    if (menu) {
+                        menu.classList.toggle("show");
+                    }
+                };
+                p
+
+            });
+
+
+        const currentPath = window.location.pathname;
+
+        document.querySelectorAll('a[data-rel]').forEach(link => {
+            const rel = link.getAttribute('data-rel');
+
+            if (currentPath.includes("/pages/")) {
+                if (rel === "home") link.href = "../index.html";
+                else link.href = `./${rel.charAt(0).toUpperCase() + rel.slice(1)}.html`;
+            } else {
+                link.href = `pages/${rel.charAt(0).toUpperCase() + rel.slice(1)}.html`;
+            }
+        });
+
     </script>
 </body>
 </html>
+

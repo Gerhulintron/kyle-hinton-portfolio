@@ -182,51 +182,55 @@
 	display: block;
 }
 
+.hamburger {
+	display: none;
+	font-size: 2rem;
+	background: none;
+	border: none;
+	color: black;
+	cursor: pointer;
+	margin: 0.5rem;
+}
+
 /* Responsive adjustments for smaller screens */
-@media screen and (max-width: 768px) { /* Adjust the max-width as needed */
-
-	.body-container{
-		padding-top: 270px;
-	}
-
+@media screen and (max-width: 768px) {
 	.navbar {
-		flex-direction: column; /* Stack items vertically */
-		align-items: stretch;
-		height: fit-content;
-		background-color: #c0c0c0;
-		border: none;
-		box-shadow: none;
-	}
-
-	.nav-items-container {
 		flex-direction: column;
 		align-items: flex-start;
+	}
+
+	.hamburger {
+		display: block;
+		font-size: 2rem;
+		background: none;
+		border: none;
+		color: black;
+		cursor: pointer;
+		margin: 0.5rem;
+	}
+
+	/* Hide menu by default */
+	.nav-items-container {
+		display: none;
+		flex-direction: column;
 		width: 100%;
-		border:none;
-	}
-
-
-
-	.nav-item, .dropdown {
-		display: block; /* Stack these items vertically */
-		width: 100%; /* Full width for each nav and social item */
-		text-align: left; /* Align text to the left */
-		border:none;
-	}
-
-	.social-items-container{
 		background-color: #c0c0c0;
-}
-
-
-	.social-item img {
-		margin-left: 0; /* Reset left margin for social icons */
-		margin-right: 1px; /* Space between icons */
+		border-top: 2px solid #808080;
 	}
 
-	/* Additional styles for dropdown menu */
-	.dropdown-content {
-		position: static; /* Adjust dropdown positioning on small screens */
+	/* Show menu when toggled */
+	.nav-items-container.show {
+		display: flex;
 	}
 
+	.nav-item {
+		width: 100%;
+	}
+
+	.nav-item a {
+		width: 100%;
+		font-size: 1.3rem;
+		padding: 10px;
+	}
 }
+
