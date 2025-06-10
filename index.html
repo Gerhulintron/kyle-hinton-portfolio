@@ -19,7 +19,8 @@
     </script>
 </head>
 <body>
-    <div id="navbar-container"></div>
+<div id="navbar-container"></div>
+<script src="pages/navbarLoader.js"></script>
         <div class="body-container">
             <div class="feature-container" id="feature-container">
                 <div class="feature-title-image-container">
@@ -178,12 +179,6 @@
             // displayProjects(allProjects, 'creative-grid-container', 'Creative');
             // displayProjects(allProjects, 'web-design-grid-container', 'Web Design');
         }
-
-        fetch("pages/KyleHintonProjectsNavbar.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-container').innerHTML = data;
-            });
 
         function searchProjects() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
@@ -345,51 +340,8 @@
 
         const currentPath = window.location.pathname;
 
-        document.querySelectorAll('a[data-rel]').forEach(link => {
-            const rel = link.getAttribute('data-rel');
-
-            if (currentPath.includes("/pages/")) {
-                if (rel === "home") link.href = "../index.html";
-                else link.href = `./${rel.charAt(0).toUpperCase() + rel.slice(1)}.html`;
-            } else {
-                link.href = `pages/${rel.charAt(0).toUpperCase() + rel.slice(1)}.html`;
-            }
-        });
-
-        fetch("pages/KyleHintonProjectsNavbar.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-container').innerHTML = data;
-
-                const isInPagesDir = window.location.pathname.includes('/pages/');
-                document.querySelectorAll('[data-rel]').forEach(link => {
-                    const rel = link.getAttribute('data-rel');
-                    if (!rel) return;
-
-                    let path = '';
-
-                    if (rel === 'home' || rel === 'portfolio') {
-                        path = isInPagesDir ? '../index.html' : './index.html';
-                    } else {
-                        path = isInPagesDir ? `./${capitalize(rel)}.html` : `./pages/${capitalize(rel)}.html`;
-                    }
-
-                    link.setAttribute('href', path);
-                });
-
-                function capitalize(str) {
-                    return str.charAt(0).toUpperCase() + str.slice(1);
-                }
-
-                window.toggleMobileMenu = function () {
-                    const menu = document.getElementById("mobileMenu");
-                    if (menu) {
-                        menu.classList.toggle("show");
-                    }
-                };
-            });
-
     </script>
+    <script src="pages/navbarLoader.js"></script>
 </body>
 </html>
 
