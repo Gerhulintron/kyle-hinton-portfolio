@@ -331,6 +331,58 @@
   },
 
   {
+    "project-title": "Brooke Leifso Portfolio",
+    "project-type": "Web Design",
+    "project-date": "2021 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/BrookeAndByron.Share-131-768x1151.jpg",
+    "project-mediums": "Wordpress, Elementor",
+    "project-presenter-producer": "Brooke Leifso",
+    "project-technology": "Wordpress, Elementor",
+    "project-description": "Portfolio website for Brooke Leifso.",
+    "project-links": [
+      {
+        "link-name": "Brooke Leifso",
+        "project-link": "https://www.brookeleifso.com/"
+      }
+    ]
+  },
+
+
+  {
+    "project-title": "Luke Little Chief Official",
+    "project-type": "Web Design, Development",
+    "project-date": "2024 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/LukeLittleChiefLogo.svg",
+    "project-presenter-producer": "Luke Little Chief",
+    "project-technology": "HTML, .CSS, Javascript, Firebase",
+    "project-description": "Official website for Luke Little Chief, Hip Hop Artist, MC and Apparel.",
+    "project-links": [
+      {
+        "link-name": "Luke Little Chief Official",
+        "project-link": "https://lukelittlechief.com/"
+      }
+    ]
+  },
+
+  {
+    "project-title": "Boathaus Studios Website",
+    "project-type": "Web Design",
+    "project-date": "November 2021 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/boathaus_logo.jpg",
+    "project-mediums": "Wordpress, Elementor",
+    "project-presenter-producer": "Boathaus Studios",
+    "project-technology": "Wordpress, Elementor",
+    "project-description": "Website for audio production company, Boathaus Studios",
+    "project-links": [
+      {
+        "link-name": "Boathaus",
+        "project-link": "https://www.boathausstudios.com/"
+      }
+    ]
+  },
+
+
+  {
     "project-title": "The Critical Thinking Detective",
     "project-type": "Custom GPT",
     "project-date": "November 2023 - present",
@@ -363,6 +415,8 @@
       }
     ]
   },
+
+
 
   {
     "project-title": "Augle",
@@ -447,39 +501,6 @@
   },
 
 
-  {
-    "project-title": "Boathaus Studios Website",
-    "project-type": "Web Design",
-    "project-date": "November 2021 - Present",
-    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/boathaus_logo.jpg",
-    "project-mediums": "Wordpress, Elementor",
-    "project-presenter-producer": "Boathaus Studios",
-    "project-technology": "Wordpress, Elementor",
-    "project-description": "Website for audio production company, Boathaus Studios",
-    "project-links": [
-      {
-        "link-name": "Boathaus",
-        "project-link": "https://www.boathausstudios.com/"
-      }
-    ]
-  },
-
-  {
-    "project-title": "Brooke Leifso Portfolio",
-    "project-type": "Web Design",
-    "project-date": "2021 - Present",
-    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/BrookeAndByron.Share-131-768x1151.jpg",
-    "project-mediums": "Wordpress, Elementor",
-    "project-presenter-producer": "Brooke Leifso",
-    "project-technology": "Wordpress, Elementor",
-    "project-description": "Portfolio website for Brooke Leifso.",
-    "project-links": [
-      {
-        "link-name": "Brooke Leifso",
-        "project-link": "https://www.brookeleifso.com/"
-      }
-    ]
-  },
 
   {
     "project-title": "366 Days by David Gagnon Walker",
