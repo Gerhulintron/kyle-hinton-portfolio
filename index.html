@@ -341,21 +341,6 @@
             return portfolioHTML;
         }
 
-        fetch("pages/KyleHintonProjectsNavbar.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-container').innerHTML = data;
-
-                // ✅ Make toggle function global
-                window.toggleMobileMenu = function () {
-                    const menu = document.getElementById("mobileMenu");
-                    if (menu) {
-                        menu.classList.toggle("show");
-                    }
-                };
-                p
-
-            });
 
 
         const currentPath = window.location.pathname;
@@ -370,6 +355,39 @@
                 link.href = `pages/${rel.charAt(0).toUpperCase() + rel.slice(1)}.html`;
             }
         });
+
+        fetch("pages/KyleHintonProjectsNavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+
+                const isInPagesDir = window.location.pathname.includes('/pages/');
+                document.querySelectorAll('[data-rel]').forEach(link => {
+                    const rel = link.getAttribute('data-rel');
+                    if (!rel) return;
+
+                    let path = '';
+
+                    if (rel === 'home' || rel === 'portfolio') {
+                        path = isInPagesDir ? '../index.html' : './index.html';
+                    } else {
+                        path = isInPagesDir ? `./${capitalize(rel)}.html` : `./pages/${capitalize(rel)}.html`;
+                    }
+
+                    link.setAttribute('href', path);
+                });
+
+                function capitalize(str) {
+                    return str.charAt(0).toUpperCase() + str.slice(1);
+                }
+
+                window.toggleMobileMenu = function () {
+                    const menu = document.getElementById("mobileMenu");
+                    if (menu) {
+                        menu.classList.toggle("show");
+                    }
+                };
+            });
 
     </script>
 </body>
