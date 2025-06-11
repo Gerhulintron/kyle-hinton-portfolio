@@ -195,7 +195,7 @@
       },
       {
         "link-name": "Privacy Policy",
-        "project-link": "https://www.kylehintonprojects.com/pages/GodOfThunderPrivacyPolicy.html"
+        "project-link": "https://www.kylehintonprojects.com/GodOfThunderPrivacyPolicy.html"
       }
 
     ]
@@ -226,7 +226,7 @@
       },
       {
         "link-name": "Privacy Policy",
-        "project-link": "https://www.kylehintonprojects.com/pages/BunnyRunnerPrivacyPolicy.html"
+        "project-link": "https://www.kylehintonprojects.com/BunnyRunnerPrivacyPolicy.html"
       },
       {
         "link-name": "Bunny Runner for Android",
@@ -534,7 +534,7 @@
     "project-links": [
       {
         "link-name": "Asteroid Scan",
-        "project-link": "pages/AsteroidScanII.html"
+        "project-link": "/AsteroidScanII.html"
       }
     ]
   },

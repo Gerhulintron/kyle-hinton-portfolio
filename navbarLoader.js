@@ -1,5 +1,5 @@
 // scripts/navbarLoader.js
-fetch("pages/KyleHintonProjectsNavbar.html")
+fetch("KyleHintonProjectsNavbar.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById('navbar-container').innerHTML = data;
@@ -11,4 +11,3 @@ fetch("pages/KyleHintonProjectsNavbar.html")
             }
         };
     });
-
