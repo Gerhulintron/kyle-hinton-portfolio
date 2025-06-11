@@ -106,7 +106,7 @@
 	color: black;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 2rem;
+	/*font-size: 2rem;*/
 	border: 2px outset #ffffff;
 	box-shadow: 1px 1px 0 #000;
 	text-align: left; /* Align text to the left */
@@ -193,7 +193,7 @@
 }
 
 /* Responsive adjustments for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 932px) {
 	.navbar {
 		flex-direction: column;
 		align-items: flex-start;

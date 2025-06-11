@@ -701,6 +701,17 @@ button:hover {
 	/*	width: 100%;*/
 	/*}*/
 
+	.about-body-container{
+		padding-top: 400px;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-bottom: 10%;
+	}
+
+	.body-container{
+		padding-top: 360px;
+	}
+
 }
 
 /*Small Devices (Tablets, 600px - 768px):*/
@@ -758,6 +769,17 @@ button:hover {
 		flex-direction: column;
 	}
 
+
+	.about-body-container{
+		padding-top: 360px;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-bottom: 10%;
+	}
+
+	.body-container{
+		padding-top: 360px;
+	}
 	/*#searchInput, button {*/
 	/*	width: 100%;*/
 	/*}*/
@@ -783,6 +805,18 @@ button:hover {
 	.project-image-description-container {
 		flex-direction: column;
 	}
+
+	.about-body-container{
+		padding-top: 360px;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-bottom: 10%;
+	}
+
+	.body-container{
+		padding-top: 360px;
+	}
+
 
 	#kyle-hinton-title {
 		font-size: 2rem;
@@ -867,6 +901,17 @@ button:hover {
 
 		.stats-container{
 			flex-direction: column;
+		}
+
+		.about-body-container{
+			padding-top: 360px;
+			padding-left: 10%;
+			padding-right: 10%;
+			padding-bottom: 10%;
+		}
+
+		.body-container{
+			padding-top: 360px;
 		}
 
 
