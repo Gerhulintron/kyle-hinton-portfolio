@@ -242,6 +242,38 @@
   },
 
   {
+    "project-title": "Urban Raccoons - NFT NYC 2025",
+    "project-type": "Stop Motion",
+    "project-feature-photo-link": "",
+    "project-mediums": "Stopmotion",
+    "project-presenter-producer": "The Suitcase Theatre Arcade",
+    "project-technology": "Stopmotion",
+    "project-description": "Presenting Urban Raccoons at NFT NYC 2025",
+    "project-links": [
+      {
+        "link-name": "Urban Raccoons - NFT NYC 2025",
+        "project-link": "https://www.instagram.com/p/DLX8A7VPj1t/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      }
+    ]
+  },
+
+  {
+    "project-title": "Hersoid's Shlot Machines",
+    "project-type": "Web Design, Boutique Development",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/ShitfaceShlotMachines.PNG",
+    "project-mediums": "HTML, CSS, Javascript",
+    "project-presenter-producer": "Hersoid",
+    "project-technology": "HTML, CSS, Javascript",
+    "project-description": "Created a set of slot machines that generates poetry based on the Shitface's attributes that get rolled. At events, people can scan the QR to download or to mint it to the Solana blockchain. Presented in NYC at the event, In the Grip of Greed and Idiocy.",
+    "project-links": [
+      {
+        "link-name": "Hersoid's Shlotmachine",
+        "project-link": "https://shlotmachine.hersoid.com/"
+      }
+        ]
+      },
+
+      {
     "project-title": "Pog Swap",
     "project-type": "Development",
     "project-date": "January - April 2024",
