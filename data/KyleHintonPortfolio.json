@@ -379,6 +379,22 @@
     ]
   },
 
+  {
+    "project-title": "Wist and Wander - Jen Roberts Portfolio",
+    "project-type": "Web Design, Development",
+    "project-date": "2025 - Present",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/websites/feature_1757039978963_Logo%20.svg",
+    "project-presenter-producer": "Wist and Wander",
+    "project-technology": "HTML, .CSS, Javascript, Firebase",
+    "project-description": "Official website for Wist and Wander Illustrations and Creations",
+    "project-links": [
+      {
+        "link-name": "Wist and Wander",
+        "project-link": "https://wistandwander.com/"
+      }
+    ]
+  },
+
 
   {
     "project-title": "Luke Little Chief Official",
