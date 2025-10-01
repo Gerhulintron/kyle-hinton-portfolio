@@ -47,23 +47,25 @@
     ]
   },
 
-
   {
-    "project-title": "Muulti - Token Gated Video Platform",
+    "project-title": "MuultiSpace - Decentralized/Token Gated Media Platform",
     "project-type": "Development",
-    "project-date": "October 2023 - Present",
+    "project-date": "July 2025 - Ongoing",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/muulti_logo_one.png",
     "project-mediums": "Full Stack Development, Blockchain",
     "project-presenter-producer": "",
-    "project-technology": "Python, Django, Django Rest Framework, and React JS, Solana",
-    "project-description": "Muulti is a video platform where content creators can use any NFT from any collection in the Solana ecosystem to token gate their video content.",
+    "project-technology": "Javascript, Solana, Firestore",
+    "project-description": "MuultiSpace is a decentralized media platform where users can decide how content is shared, not just through subscriptions but with tickets, donations and more. Access gameified.",
     "project-links": [
       {
-        "link-name": "Muulti - Token Gated Media Content",
-        "project-link": "https://muulti.xyz/"
+        "link-name": "MuultiSpace - Decentralized / token gated media platform.",
+        "project-link": "https://muultispace.com/"
       }
     ]
   },
+
+
+
 
 
   {
@@ -179,7 +181,7 @@
   },
 
   {
-    "project-title": "Mischief Thunder",
+    "project-title": "God of Thunder",
     "project-type": "Game Development, Development",
     "project-date": "September 2019 - Ongoing",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/god-of-thunder/GodOfThunder3.png",
@@ -332,6 +334,25 @@
       }
     ]
   },
+
+
+  {
+    "project-title": "Muulti - Token Gated Video Platform",
+    "project-type": "Development",
+    "project-date": "October 2023 - 2025",
+    "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/posters/muulti_logo_one.png",
+    "project-mediums": "Full Stack Development, Blockchain",
+    "project-presenter-producer": "",
+    "project-technology": "Python, Django, Django Rest Framework, and React JS, Solana",
+    "project-description": "Muulti is a video platform where content creators can use any NFT from any collection in the Solana ecosystem to token gate their video content.",
+    "project-links": [
+      {
+        "link-name": "Muulti - Token Gated Media Content",
+        "project-link": "https://muulti.xyz/"
+      }
+    ]
+  },
+
 
   {
     "project-title": "Gm Solana: An Introduction to Blockchain and NFTs for Artists and Creators",
