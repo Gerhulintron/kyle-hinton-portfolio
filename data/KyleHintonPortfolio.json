@@ -186,14 +186,18 @@
     "project-date": "September 2019 - Ongoing",
     "project-feature-photo-link": "https://kyle-hinton-media-bucket.sfo3.cdn.digitaloceanspaces.com/god-of-thunder/GodOfThunder3.png",
     "project-mediums": "Game Development",
-    "project-presenter-producer": "Little Odd Things",
+    "project-presenter-producer": "Old Trouts Puppet Workshop, The Simulacrum",
     "project-technology": "Unity, C#",
     "project-description": "You are the mischievous God of Thunder and you are here to absorb the tears of the corpos.",
     "project-links": [
 
       {
-        "link-name": "Mischief Thunder on Google Play",
+        "link-name": "God of Thunder on Google Play",
         "project-link": "https://play.google.com/store/apps/details?id=com.kylehinton.thesodandthegodofthunder"
+      },
+      {
+        "link-name": "God of Thunder on Apple",
+        "project-link": "https://apps.apple.com/us/app/god-of-thunder/id6736884728"
       },
       {
         "link-name": "Privacy Policy",
